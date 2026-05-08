@@ -1,0 +1,195 @@
+---
+import type { Apto, TransportType } from '../types';
+import { uiAll } from '../i18n/ui';
+import Icon from './Icon.astro';
+import T from './T.astro';
+
+interface Props {
+  apto: Apto;
+}
+
+const { apto } = Astro.props;
+
+const iconForTransport = (type: TransportType): string => {
+  switch (type) {
+    case 'metro': return 'metro';
+    case 'bus': return 'bus';
+    case 'airport': return 'plane';
+    case 'station': return 'station';
+    case 'walk': return 'walk';
+    case 'car': return 'car';
+    default: return 'pin';
+  }
+};
+
+const grouped = {
+  publicTransport: apto.location.transports.filter((t) => ['metro', 'bus', 'walk'].includes(t.type)),
+  airports: apto.location.transports.filter((t) => t.type === 'airport'),
+  stations: apto.location.transports.filter((t) => t.type === 'station' || t.type === 'car'),
+};
+
+const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${apto.location.mapsQuery}`;
+---
+
+<section id="local" class="section-anchor mx-auto max-w-6xl px-4 py-20 md:py-28">
+  <div class="mb-10 text-center md:mb-14">
+    <span class="eyebrow"><T text={uiAll('nav.local')} /></span>
+    <h2 class="section-title mt-2"><T text={uiAll('arrival.title')} /></h2>
+  </div>
+
+  <div class="grid gap-6 md:grid-cols-2">
+    <div class="card card-hover">
+      <div class="flex items-start gap-4">
+        <div
+          class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl text-white"
+          style={`background: var(--apto-primary)`}
+        >
+          <Icon name="pin" size={22} />
+        </div>
+        <div class="flex-1">
+          <p class="text-sm font-semibold uppercase tracking-wide text-stone-500">
+            {apto.location.city} • {apto.location.state}
+          </p>
+          <p class="mt-1 text-lg font-semibold text-stone-900">
+            {apto.location.address}
+          </p>
+          <p class="text-stone-600">{apto.location.unit}</p>
+          <a
+            href={mapsUrl}
+            target="_blank"
+            rel="noopener"
+            class="mt-4 inline-flex items-center gap-2 rounded-full bg-stone-100 px-4 py-2 text-sm font-medium text-stone-800 transition hover:bg-stone-200"
+          >
+            <Icon name="maps" size={16} />
+            <T text={uiAll('arrival.openMaps')} />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3 class="mb-4 flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-stone-500">
+        <Icon name="key" size={16} />
+        <T text={uiAll('arrival.steps')} />
+      </h3>
+      <ol class="space-y-4">
+        {apto.location.arrivalSteps.map((step, idx) => (
+          <li class="flex gap-3">
+            <span
+              class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-bold text-white"
+              style={`background: var(--apto-accent)`}
+            >
+              {String(idx + 1).padStart(2, '0')}
+            </span>
+            <span class="text-stone-700"><T text={step} /></span>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </div>
+
+  <div class="mt-12">
+    <h3 class="font-serif text-2xl font-semibold text-stone-900">
+      <T text={uiAll('arrival.howToReach')} />
+    </h3>
+    <p class="mt-2 max-w-2xl text-sm text-stone-600">
+      <T text={uiAll('arrival.howToReachDesc')} />
+    </p>
+
+    <div class="mt-8 grid gap-8 md:grid-cols-3">
+      {grouped.publicTransport.length > 0 && (
+        <div>
+          <h4 class="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-stone-500">
+            <T text={uiAll('arrival.publicTransport')} />
+          </h4>
+          <ul class="space-y-3">
+            {grouped.publicTransport.map((tr) => (
+              <li class="card !p-4">
+                <div class="flex items-start gap-3">
+                  <div
+                    class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg text-white"
+                    style={`background: var(--apto-primary)`}
+                  >
+                    <Icon name={iconForTransport(tr.type) as any} size={18} />
+                  </div>
+                  <div>
+                    <p class="font-semibold text-stone-900">{tr.name}</p>
+                    {tr.line && <p class="text-xs text-stone-500">{tr.line}</p>}
+                    {tr.walkTime && (
+                      <p class="mt-1 text-xs font-medium" style={`color: var(--apto-accent)`}>
+                        {tr.walkTime}
+                      </p>
+                    )}
+                    <p class="mt-1.5 text-sm text-stone-600"><T text={tr.description} /></p>
+                  </div>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {grouped.airports.length > 0 && (
+        <div>
+          <h4 class="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-stone-500">
+            <T text={uiAll('arrival.airports')} />
+          </h4>
+          <ul class="space-y-3">
+            {grouped.airports.map((tr) => (
+              <li class="card !p-4">
+                <div class="flex items-start gap-3">
+                  <div
+                    class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg text-white"
+                    style={`background: var(--apto-primary)`}
+                  >
+                    <Icon name="plane" size={18} />
+                  </div>
+                  <div>
+                    <p class="font-semibold text-stone-900">{tr.name}</p>
+                    {tr.walkTime && (
+                      <p class="mt-1 text-xs font-medium" style={`color: var(--apto-accent)`}>
+                        {tr.walkTime}
+                      </p>
+                    )}
+                    <p class="mt-1.5 text-sm text-stone-600"><T text={tr.description} /></p>
+                  </div>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {grouped.stations.length > 0 && (
+        <div>
+          <h4 class="mb-4 text-xs font-semibold uppercase tracking-[0.2em] text-stone-500">
+            <T text={uiAll('arrival.stations')} />
+          </h4>
+          <ul class="space-y-3">
+            {grouped.stations.map((tr) => (
+              <li class="card !p-4">
+                <div class="flex items-start gap-3">
+                  <div
+                    class="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg text-white"
+                    style={`background: var(--apto-primary)`}
+                  >
+                    <Icon name={iconForTransport(tr.type) as any} size={18} />
+                  </div>
+                  <div>
+                    <p class="font-semibold text-stone-900">{tr.name}</p>
+                    {tr.walkTime && (
+                      <p class="mt-1 text-xs font-medium" style={`color: var(--apto-accent)`}>
+                        {tr.walkTime}
+                      </p>
+                    )}
+                    <p class="mt-1.5 text-sm text-stone-600"><T text={tr.description} /></p>
+                  </div>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </div>
+  </div>
+</section>

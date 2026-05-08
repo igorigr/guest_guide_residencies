@@ -1,0 +1,17 @@
+---
+import type { LocalizedString } from '../types';
+
+interface Props {
+  text: LocalizedString;
+  /** Render as a block-level wrapper instead of inline. */
+  block?: boolean;
+  class?: string;
+}
+
+const { text, block = false, class: className } = Astro.props;
+const Tag = block ? 'div' : 'span';
+---
+
+<Tag class:list={['i18n-group', className]}>
+  <span data-i18n="pt">{text.pt}</span><span data-i18n="en">{text.en}</span><span data-i18n="es">{text.es}</span>
+</Tag>

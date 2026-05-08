@@ -1,0 +1,77 @@
+---
+import type { Apto } from '../types';
+import { uiAll } from '../i18n/ui';
+import Icon from './Icon.astro';
+import T from './T.astro';
+
+interface Props {
+  apto: Apto;
+}
+
+const { apto } = Astro.props;
+---
+
+<section class="relative h-[100svh] min-h-[600px] w-full overflow-hidden">
+  <div class="absolute inset-0">
+    <img
+      src={apto.hero.image}
+      alt={apto.name}
+      class="hero-img h-full w-full object-cover"
+      loading="eager"
+      fetchpriority="high"
+    />
+    <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-black/40 to-black/70"></div>
+  </div>
+
+  <div class="relative z-10 flex h-full flex-col items-center justify-end px-6 pb-32 text-center md:pb-40">
+    <span
+      class="mb-4 inline-flex items-center gap-2 rounded-full bg-white/15 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-white/90 backdrop-blur"
+    >
+      <Icon name="sparkle" size={14} />
+      <T text={uiAll('hero.badge')} /> • {apto.shortName}
+    </span>
+
+    <h1
+      class="font-serif text-5xl leading-tight text-white drop-shadow-md sm:text-6xl md:text-7xl animate-fade-up"
+      style="animation-delay: 0.1s"
+    >
+      <T text={apto.hero.welcome} />
+    </h1>
+
+    <p
+      class="mt-4 max-w-xl text-base text-white/85 md:text-lg animate-fade-up"
+      style="animation-delay: 0.25s"
+    >
+      <T text={apto.hero.subtitle} />
+    </p>
+
+    <a
+      href="#local"
+      class="mt-8 inline-flex items-center gap-2 rounded-full bg-white px-7 py-3.5 text-sm font-semibold text-stone-900 shadow-xl transition hover:-translate-y-0.5 hover:bg-stone-50 animate-fade-up"
+      style="animation-delay: 0.4s"
+    >
+      <T text={uiAll('hero.cta')} />
+      <Icon name="arrow-right" size={16} />
+    </a>
+  </div>
+
+  <div
+    class="absolute bottom-24 left-1/2 -translate-x-1/2 text-white/70 md:bottom-12"
+    aria-hidden="true"
+  >
+    <div class="flex flex-col items-center gap-2 text-[10px] uppercase tracking-[0.3em]">
+      <span class="hidden md:inline"><T text={uiAll('hero.scroll')} /></span>
+      <span class="block h-10 w-px animate-pulse bg-white/50"></span>
+    </div>
+  </div>
+</section>
+
+<style>
+  .hero-img {
+    animation: heroZoom 12s ease-out both;
+  }
+  @keyframes heroZoom {
+    from { transform: scale(1.08); }
+    to { transform: scale(1); }
+  }
+</style>

@@ -1,0 +1,344 @@
+{
+  "slug": "ocian-apto116",
+  "name": "Ocian • Apto 116",
+  "shortName": "Apto 116",
+  "hero": {
+    "image": "https://a0.muscache.com/im/pictures/hosting/Hosting-1616684555982640121/original/e8561418-9f96-4c01-869d-516aa0c4f7c0.jpeg?im_w=720",
+    "welcome": {
+      "pt": "Bem-vindo ao mar",
+      "en": "Welcome to the seaside",
+      "es": "Bienvenido al mar"
+    },
+    "subtitle": {
+      "pt": "A poucos passos da praia, o lugar perfeito para relaxar.",
+      "en": "Just steps from the beach, the perfect place to unwind.",
+      "es": "A pocos pasos de la playa, el lugar perfecto para relajarse."
+    }
+  },
+  "location": {
+    "address": "Rua Guimarães Rosa, 42",
+    "unit": "Apto 116",
+    "city": "Praia Grande",
+    "state": "SP",
+    "country": "Brasil",
+    "mapsQuery": "Rua+Guimarães+Rosa,+42,+Ocian,+Praia+Grande",
+    "arrivalSteps": [
+      {
+        "pt": "Identifique-se na portaria informando o número 116.",
+        "en": "Check in at the reception with apartment number 116.",
+        "es": "Identifícate en la recepción con el número 116."
+      },
+      {
+        "pt": "Use a chave do cofre na entrada do prédio (código no WhatsApp).",
+        "en": "Use the key in the entrance lockbox (code sent on WhatsApp).",
+        "es": "Usa la llave del cofre en la entrada (código enviado por WhatsApp)."
+      },
+      {
+        "pt": "A vaga de garagem é a número 47, no subsolo 1.",
+        "en": "Garage spot is number 47, on basement level 1.",
+        "es": "La plaza de garaje es la 47, en el sótano 1."
+      }
+    ],
+    "transports": [
+      {
+        "type": "walk",
+        "name": "Praia do Ocian",
+        "walkTime": "3 min",
+        "description": {
+          "pt": "Praia a uma quadra do prédio. Faixa de pedestres na Av. Castelo Branco.",
+          "en": "Beach one block away. Pedestrian crossing on Av. Castelo Branco.",
+          "es": "Playa a una cuadra. Paso peatonal en Av. Castelo Branco."
+        }
+      },
+      {
+        "type": "car",
+        "name": "De carro pela Imigrantes (saindo de SP)",
+        "walkTime": "75 min",
+        "description": {
+          "pt": "Saindo de São Paulo, ~75 min sem trânsito pela Rodovia dos Imigrantes (SP-160) + Pedro Taques (SP-055).",
+          "en": "From São Paulo, ~75 min via Imigrantes highway (SP-160) + Pedro Taques (SP-055), no traffic.",
+          "es": "Desde São Paulo, ~75 min por la Imigrantes (SP-160) + Pedro Taques (SP-055), sin tráfico."
+        }
+      },
+      {
+        "type": "station",
+        "name": "Rodoviária de Praia Grande",
+        "walkTime": "10 min",
+        "description": {
+          "pt": "Fica em Boqueirão, ~10 min de carro. Linhas regulares saindo do Tietê (SP) a cada ~30 min.",
+          "en": "In Boqueirão, ~10 min by car. Regular buses from Tietê (SP) every ~30 min.",
+          "es": "En Boqueirão, ~10 min en coche. Buses regulares desde Tietê (SP) cada ~30 min."
+        }
+      },
+      {
+        "type": "airport",
+        "name": "Aeroporto de Congonhas (CGH)",
+        "walkTime": "90 min",
+        "description": {
+          "pt": "~90 min de carro pela Imigrantes. Transfer privado é a opção mais cômoda.",
+          "en": "~90 min by car via Imigrantes. A private transfer is the most comfortable option.",
+          "es": "~90 min en coche por la Imigrantes. El transfer privado es la opción más cómoda."
+        }
+      },
+      {
+        "type": "airport",
+        "name": "Aeroporto de Guarulhos (GRU)",
+        "walkTime": "120 min",
+        "description": {
+          "pt": "~2h de carro. Recomendamos transfer privado ou aluguel de carro no aeroporto.",
+          "en": "~2h by car. We recommend a private transfer or rental car at the airport.",
+          "es": "~2h en coche. Recomendamos transfer privado o alquiler de coche en el aeropuerto."
+        }
+      }
+    ]
+  },
+  "schedule": {
+    "checkIn": "15:00",
+    "checkOut": "11:00",
+    "flexibilityNote": {
+      "pt": "Em alta temporada os horários são fixos. Fora dela, posso ajustar — me avise!",
+      "en": "Times are fixed in high season. Off-season I can adjust — let me know!",
+      "es": "En temporada alta los horarios son fijos. Fuera de ella puedo ajustar — ¡avísame!"
+    }
+  },
+  "apartment": {
+    "wifi": {
+      "network": "Ocian116",
+      "password": "praiagrande116"
+    },
+    "notes": [
+      {
+        "icon": "ac",
+        "title": {
+          "pt": "Ar-condicionado",
+          "en": "Air conditioning",
+          "es": "Aire acondicionado"
+        },
+        "description": {
+          "pt": "Split no quarto principal. A sala tem ventilador de teto.",
+          "en": "Split AC in the master bedroom. Living room has a ceiling fan.",
+          "es": "Split en la habitación principal. La sala tiene ventilador de techo."
+        }
+      },
+      {
+        "icon": "shower",
+        "title": {
+          "pt": "Ducha externa",
+          "en": "Outdoor shower",
+          "es": "Ducha exterior"
+        },
+        "description": {
+          "pt": "Há uma ducha de água doce na garagem para enxaguar a areia.",
+          "en": "Freshwater shower in the garage to rinse off sand.",
+          "es": "Ducha de agua dulce en el garaje para enjuagar la arena."
+        }
+      },
+      {
+        "icon": "kitchen",
+        "title": {
+          "pt": "Cozinha equipada",
+          "en": "Equipped kitchen",
+          "es": "Cocina equipada"
+        },
+        "description": {
+          "pt": "Fogão, geladeira, micro-ondas e utensílios completos.",
+          "en": "Stove, fridge, microwave and full set of utensils.",
+          "es": "Cocina, nevera, microondas y utensilios completos."
+        }
+      },
+      {
+        "icon": "pool",
+        "title": {
+          "pt": "Piscina do prédio",
+          "en": "Building pool",
+          "es": "Piscina del edificio"
+        },
+        "description": {
+          "pt": "Piscina aberta das 8h às 20h. Sandália e toalha são obrigatórias.",
+          "en": "Pool open 8am to 8pm. Flip-flops and towel required.",
+          "es": "Piscina abierta de 8h a 20h. Chanclas y toalla obligatorias."
+        }
+      },
+      {
+        "icon": "window",
+        "title": {
+          "pt": "Janelas e brisa",
+          "en": "Windows and sea breeze",
+          "es": "Ventanas y brisa"
+        },
+        "description": {
+          "pt": "A maresia é forte. Feche as janelas em dias de chuva ou ao sair.",
+          "en": "Sea air is strong. Close windows on rainy days or when leaving.",
+          "es": "La brisa marina es fuerte. Cierra las ventanas si llueve o al salir."
+        }
+      }
+    ]
+  },
+  "rules": [
+    {
+      "pt": "Não traga areia para dentro — use a ducha externa antes.",
+      "en": "Please don't bring sand inside — use the outdoor shower first.",
+      "es": "Por favor no traigas arena adentro — usa primero la ducha externa."
+    },
+    {
+      "pt": "Horário de silêncio: 22h às 08h.",
+      "en": "Quiet hours: 10pm to 8am.",
+      "es": "Horario de silencio: 22h a 08h."
+    },
+    {
+      "pt": "Não é permitido fumar dentro do apartamento.",
+      "en": "No smoking inside the apartment.",
+      "es": "Prohibido fumar dentro del apartamento."
+    },
+    {
+      "pt": "Festas e eventos não são permitidos.",
+      "en": "Parties and events are not allowed.",
+      "es": "No se permiten fiestas ni eventos."
+    }
+  ],
+  "tips": [
+    {
+      "category": "mercado",
+      "name": "Sonda Supermercados Praia Grande",
+      "distance": "1.2km",
+      "mapsQuery": "Sonda+Supermercados+Praia+Grande",
+      "description": {
+        "pt": "Supermercado grande, com hortifruti e padaria. Aberto até 22h.",
+        "en": "Large supermarket with produce and bakery. Open until 10pm.",
+        "es": "Supermercado grande con frutas y panadería. Abierto hasta 22h."
+      }
+    },
+    {
+      "category": "mercado",
+      "name": "Pão de Açúcar Boqueirão",
+      "distance": "3.5km",
+      "mapsQuery": "Pao+de+Acucar+Boqueirao+Praia+Grande",
+      "description": {
+        "pt": "Mais completo da região, com adega e produtos importados.",
+        "en": "Most complete in the area, with wine cellar and imported products.",
+        "es": "El más completo de la zona, con bodega y productos importados."
+      }
+    },
+    {
+      "category": "padaria",
+      "name": "Padaria Castelo (Av. Castelo Branco)",
+      "distance": "300m",
+      "mapsQuery": "Padaria+Castelo+Branco+Ocian+Praia+Grande",
+      "description": {
+        "pt": "Padaria de bairro com pão fresco e café da manhã. Aberta cedinho.",
+        "en": "Neighborhood bakery with fresh bread and breakfast. Opens early.",
+        "es": "Panadería de barrio con pan fresco y desayuno. Abre temprano."
+      }
+    },
+    {
+      "category": "restaurante",
+      "name": "Quiosques da Praia do Ocian",
+      "distance": "200m",
+      "mapsQuery": "Quiosques+Praia+Ocian+Praia+Grande",
+      "description": {
+        "pt": "Pés na areia, porção de peixe ou camarão e cerveja gelada. O clássico de Praia Grande.",
+        "en": "Feet in the sand, fish or shrimp platters and cold beer. The Praia Grande classic.",
+        "es": "Pies en la arena, porciones de pescado o camarón y cerveza fría. El clásico de Praia Grande."
+      }
+    },
+    {
+      "category": "restaurante",
+      "name": "Camarão & Cia",
+      "distance": "2km",
+      "mapsQuery": "Camarao+e+Cia+Praia+Grande",
+      "description": {
+        "pt": "Frutos do mar tradicionais. Moqueca e bobó de camarão são imperdíveis.",
+        "en": "Traditional seafood. Don't miss the moqueca and shrimp bobó.",
+        "es": "Mariscos tradicionales. No te pierdas la moqueca y el bobó de camarón."
+      }
+    },
+    {
+      "category": "oQueFazer",
+      "name": "Praia do Ocian",
+      "distance": "200m",
+      "mapsQuery": "Praia+Ocian+Praia+Grande",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/GUILHERMINA_-_DEZ_2010_-_panoramio_%281%29.jpg/800px-GUILHERMINA_-_DEZ_2010_-_panoramio_%281%29.jpg",
+      "description": {
+        "pt": "Praia tranquila, com calçadão para caminhadas e bicicleta.",
+        "en": "Calm beach with a boardwalk for walking and biking.",
+        "es": "Playa tranquila con paseo marítimo para caminar y andar en bici."
+      }
+    },
+    {
+      "category": "oQueFazer",
+      "name": "Aquário de Praia Grande",
+      "distance": "5km",
+      "mapsQuery": "Aquario+Praia+Grande",
+      "description": {
+        "pt": "Atração para todas as idades. Tubarões, raias e tanque tátil. Aberto todos os dias.",
+        "en": "Family-friendly attraction. Sharks, rays and a touch pool. Open every day.",
+        "es": "Atracción para toda la familia. Tiburones, rayas y tanque táctil. Abierto todos los días."
+      }
+    },
+    {
+      "category": "oQueFazer",
+      "name": "Forte de Itaipu",
+      "distance": "11km",
+      "mapsQuery": "Forte+Itaipu+Praia+Grande",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Itaip%C3%BA_Fortress.JPG/800px-Itaip%C3%BA_Fortress.JPG",
+      "description": {
+        "pt": "Forte histórico com vista linda do canal. Aberto de quarta a domingo.",
+        "en": "Historic fort with a beautiful view of the channel. Open Wed–Sun.",
+        "es": "Fuerte histórico con vista hermosa del canal. Abierto miércoles a domingo."
+      }
+    },
+    {
+      "category": "cultura",
+      "name": "Palácio das Artes",
+      "distance": "5km",
+      "mapsQuery": "Palacio+das+Artes+Praia+Grande",
+      "description": {
+        "pt": "Centro cultural municipal com teatro, exposições e shows. Programação varia.",
+        "en": "Municipal cultural center with theater, exhibitions and concerts. Schedule varies.",
+        "es": "Centro cultural municipal con teatro, exposiciones y conciertos. Programación variable."
+      }
+    },
+    {
+      "category": "lojas",
+      "name": "Praiamar Shopping",
+      "distance": "9km",
+      "mapsQuery": "Praiamar+Shopping+Praia+Grande",
+      "description": {
+        "pt": "Maior shopping da cidade, com cinema, lojas e praça de alimentação.",
+        "en": "The city's biggest mall — cinema, stores and food court.",
+        "es": "El centro comercial más grande de la ciudad — cine, tiendas y patio de comidas."
+      }
+    },
+    {
+      "category": "farmacia",
+      "name": "Drogaria São Paulo Ocian",
+      "distance": "350m",
+      "mapsQuery": "Drogaria+Sao+Paulo+Ocian+Praia+Grande",
+      "description": {
+        "pt": "Farmácia próxima na Av. Castelo Branco.",
+        "en": "Nearby pharmacy on Av. Castelo Branco.",
+        "es": "Farmacia cercana en Av. Castelo Branco."
+      }
+    }
+  ],
+  "contact": {
+    "hostName": "Kenia",
+    "hostPhotoInitial": "P",
+    "hostPhone": "5531973119006",
+    "whatsappMessage": {
+      "pt": "Olá Kenia, estou no Apto 116 do Ocian em Praia Grande.",
+      "en": "Hi Kenia, I'm at Ocian Apt 116 in Praia Grande.",
+      "es": "Hola Kenia, estoy en el Apto 116 del Ocian en Praia Grande."
+    }
+  },
+  "emergency": {
+    "police": "190",
+    "samu": "192",
+    "firefighters": "193"
+  },
+  "theme": {
+    "primary": "#0f4c5c",
+    "accent": "#e9b44c",
+    "background": "#eef6f5"
+  }
+}

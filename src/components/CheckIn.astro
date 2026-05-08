@@ -1,0 +1,87 @@
+---
+import type { Apto, Lang } from '../types';
+import { uiAll } from '../i18n/ui';
+import Icon from './Icon.astro';
+import T from './T.astro';
+
+interface Props {
+  apto: Apto;
+}
+
+const { apto } = Astro.props;
+
+const langs: Lang[] = ['pt', 'en', 'es'];
+
+const buildWaUrl = (lang: Lang) => {
+  const msg = encodeURIComponent(apto.contact.whatsappMessage[lang]);
+  return `https://wa.me/${apto.contact.hostPhone}?text=${msg}`;
+};
+---
+
+<section
+  id="checkin"
+  class="section-anchor relative mx-auto max-w-6xl px-4 py-20 md:py-28"
+>
+  <div class="mb-10 text-center md:mb-14">
+    <span class="eyebrow"><T text={uiAll('nav.checkin')} /></span>
+    <h2 class="section-title mt-2"><T text={uiAll('checkin.title')} /></h2>
+  </div>
+
+  <div class="grid gap-6 md:grid-cols-2">
+    <div
+      class="card card-hover relative overflow-hidden"
+      style={`background: linear-gradient(135deg, var(--apto-primary), var(--apto-accent));`}
+    >
+      <div class="relative z-10 text-white">
+        <div class="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] opacity-90">
+          <Icon name="arrow-right" size={14} />
+          <T text={uiAll('checkin.in')} />
+        </div>
+        <p class="mt-4 text-sm opacity-90"><T text={uiAll('checkin.from')} /></p>
+        <p class="font-serif text-6xl font-bold">{apto.schedule.checkIn}</p>
+      </div>
+      <div
+        class="absolute -right-12 -top-12 h-48 w-48 rounded-full bg-white/10"
+        aria-hidden="true"
+      ></div>
+    </div>
+
+    <div class="card card-hover relative overflow-hidden bg-stone-900 text-white">
+      <div class="relative z-10">
+        <div class="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] opacity-80">
+          <Icon name="arrow-down" size={14} />
+          <T text={uiAll('checkin.out')} />
+        </div>
+        <p class="mt-4 text-sm opacity-80"><T text={uiAll('checkin.until')} /></p>
+        <p class="font-serif text-6xl font-bold">{apto.schedule.checkOut}</p>
+      </div>
+      <div
+        class="absolute -right-12 -bottom-12 h-48 w-48 rounded-full bg-white/5"
+        aria-hidden="true"
+      ></div>
+    </div>
+  </div>
+
+  <div class="mt-8 rounded-2xl border border-stone-200 bg-white/60 p-5 md:p-6 backdrop-blur">
+    <p class="text-sm font-semibold text-stone-900">
+      <T text={uiAll('checkin.flex')} />
+    </p>
+    <p class="mt-1 text-sm text-stone-600">
+      <T text={apto.schedule.flexibilityNote} />
+    </p>
+    <div class="mt-4">
+      {langs.map((l) => (
+        <a
+          href={buildWaUrl(l)}
+          target="_blank"
+          rel="noopener"
+          data-lang-only={l}
+          class="items-center gap-2 rounded-full bg-[#25d366] px-5 py-2.5 text-sm font-semibold text-white transition hover:brightness-110"
+        >
+          <Icon name="whatsapp" size={16} />
+          <span>{uiAll('checkin.flexCta')[l]}</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>

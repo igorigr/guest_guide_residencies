@@ -1,0 +1,43 @@
+---
+import { uiAll } from '../i18n/ui';
+import Icon from './Icon.astro';
+import T from './T.astro';
+
+const items = [
+  { href: '#local', icon: 'pin', key: 'nav.local' },
+  { href: '#checkin', icon: 'clock', key: 'nav.checkin' },
+  { href: '#apto', icon: 'home', key: 'nav.apto' },
+  { href: '#regras', icon: 'rules', key: 'nav.rules' },
+  { href: '#dicas', icon: 'tips', key: 'nav.tips' },
+  { href: '#contato', icon: 'contact', key: 'nav.contact' },
+] as const;
+---
+
+<nav
+  class="mobile-nav fixed bottom-3 left-1/2 z-40 flex max-w-[calc(100%-1.5rem)] -translate-x-1/2 gap-0.5 overflow-x-auto rounded-full bg-white/85 px-2 py-1.5 shadow-[0_10px_30px_-12px_rgba(0,0,0,0.25)] ring-1 ring-black/5 backdrop-blur-xl md:hidden"
+  aria-label="Navigation"
+>
+  {items.map((item) => (
+    <a
+      href={item.href}
+      class="flex min-w-[60px] flex-col items-center gap-0.5 rounded-full px-2.5 py-1.5 text-[10px] font-medium text-stone-600 transition hover:bg-black/5"
+    >
+      <Icon name={item.icon as any} size={18} />
+      <span class="whitespace-nowrap"><T text={uiAll(item.key as any)} /></span>
+    </a>
+  ))}
+</nav>
+
+<nav
+  class="hidden md:flex fixed top-20 left-1/2 z-30 -translate-x-1/2 gap-1 rounded-full bg-white/80 px-2 py-1.5 shadow-md ring-1 ring-black/5 backdrop-blur"
+  aria-label="Navigation"
+>
+  {items.map((item) => (
+    <a
+      href={item.href}
+      class="rounded-full px-4 py-1.5 text-sm font-medium text-stone-700 transition hover:bg-black/5 hover:text-[var(--apto-primary)]"
+    >
+      <T text={uiAll(item.key as any)} />
+    </a>
+  ))}
+</nav>

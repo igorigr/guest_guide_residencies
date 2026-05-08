@@ -1,0 +1,368 @@
+{
+  "slug": "mapp-apto1213a",
+  "name": "Mapp • Apto 1213A",
+  "shortName": "Apto 1213A",
+  "hero": {
+    "image": "https://www.planoeplano.com.br/estatico/2022/09/29/14/59/46c5f24713b1da7143545d2178d515dcf84b69c1.webp",
+    "welcome": {
+      "pt": "Seja bem-vindo",
+      "en": "Welcome",
+      "es": "Bienvenido"
+    },
+    "subtitle": {
+      "pt": "Vista panorâmica e localização premium para sua melhor estadia.",
+      "en": "Panoramic view and premium location for your best stay.",
+      "es": "Vista panorámica y ubicación premium para tu mejor estadía."
+    }
+  },
+  "location": {
+    "address": "Av. Rio Branco, 82",
+    "unit": "Apto 1213A",
+    "city": "São Paulo",
+    "state": "SP",
+    "country": "Brasil",
+    "mapsQuery": "Av+Rio+Branco,+82,+São+Paulo",
+    "arrivalSteps": [
+      {
+        "pt": "Apresente-se na portaria 24h informando o número 1213A. O porteiro liberará o acesso ao elevador.",
+        "en": "Check in at the 24h reception with apartment number 1213A. The doorman will release elevator access.",
+        "es": "Identifícate en la recepción 24h con el número 1213A. El portero liberará el acceso al ascensor."
+      },
+      {
+        "pt": "A senha da fechadura digital será enviada por WhatsApp 1h antes do check-in.",
+        "en": "The smart-lock password will be sent via WhatsApp 1h before check-in.",
+        "es": "La contraseña de la cerradura digital se enviará por WhatsApp 1h antes del check-in."
+      }
+    ],
+    "transports": [
+      {
+        "type": "station",
+        "name": "Estação Júlio Prestes (CPTM)",
+        "line": "Linhas 7-Rubi e 8-Diamante",
+        "walkTime": "3 min",
+        "description": {
+          "pt": "Praticamente em frente ao prédio. Trens para Jundiaí, Itapevi e região metropolitana.",
+          "en": "Right in front of the building. Trains to Jundiaí, Itapevi and metro region.",
+          "es": "Prácticamente frente al edificio. Trenes a Jundiaí, Itapevi y región metropolitana."
+        }
+      },
+      {
+        "type": "metro",
+        "name": "Metrô Luz",
+        "line": "Linha 1-Azul + Linha 4-Amarela",
+        "walkTime": "8 min",
+        "description": {
+          "pt": "Hub principal. Linha 1 vai direto ao Tietê e Linha 4 leva à Paulista e Pinheiros.",
+          "en": "Main hub. Line 1 goes straight to Tietê; Line 4 reaches Paulista and Pinheiros.",
+          "es": "Hub principal. Línea 1 va directo a Tietê; Línea 4 llega a Paulista y Pinheiros."
+        }
+      },
+      {
+        "type": "metro",
+        "name": "Metrô República",
+        "line": "Linha 3-Vermelha + Linha 4-Amarela",
+        "walkTime": "12 min",
+        "description": {
+          "pt": "Coração do centro. Conexão para Paulista, Vila Madalena e Sé.",
+          "en": "Heart of downtown. Connections to Paulista, Vila Madalena and Sé.",
+          "es": "Corazón del centro. Conexiones a Paulista, Vila Madalena y Sé."
+        }
+      },
+      {
+        "type": "airport",
+        "name": "Aeroporto de Congonhas (CGH)",
+        "walkTime": "30 min",
+        "description": {
+          "pt": "~30 min de Uber/99. Voos domésticos.",
+          "en": "~30 min by Uber/99. Domestic flights.",
+          "es": "~30 min en Uber/99. Vuelos domésticos."
+        }
+      },
+      {
+        "type": "airport",
+        "name": "Aeroporto de Guarulhos (GRU)",
+        "walkTime": "50 min",
+        "description": {
+          "pt": "~50 min de carro. Há também o Airport Bus Service na Praça da República.",
+          "en": "~50 min by car. The Airport Bus Service also stops at Praça da República.",
+          "es": "~50 min en coche. El Airport Bus Service para en Praça da República."
+        }
+      },
+      {
+        "type": "station",
+        "name": "Terminal Rodoviário Tietê",
+        "walkTime": "12 min",
+        "description": {
+          "pt": "~12 min via Metrô (Luz → Tietê na Linha 1-Azul, sem baldeação).",
+          "en": "~12 min via Metro (Luz → Tietê on Blue Line 1, no transfer).",
+          "es": "~12 min en Metro (Luz → Tietê en Línea 1 azul, sin transbordo)."
+        }
+      }
+    ]
+  },
+  "schedule": {
+    "checkIn": "15:00",
+    "checkOut": "11:00",
+    "flexibilityNote": {
+      "pt": "Precisa de horário diferente? Me avise no WhatsApp e tentarei acomodar.",
+      "en": "Need a different time? Let me know on WhatsApp and I'll try to accommodate.",
+      "es": "¿Necesitas un horario diferente? Avísame por WhatsApp e intentaré acomodarlo."
+    }
+  },
+  "apartment": {
+    "wifi": {
+      "network": "Mapp1213A",
+      "network5g": "Mapp1213A_5G",
+      "password": "mapp1213A!"
+    },
+    "notes": [
+      {
+        "icon": "ac",
+        "title": {
+          "pt": "Ar-condicionado split",
+          "en": "Split AC",
+          "es": "Aire acondicionado split"
+        },
+        "description": {
+          "pt": "Há um split na sala e outro no quarto. Por favor, desligue ao sair.",
+          "en": "One split in the living room and one in the bedroom. Please turn off when leaving.",
+          "es": "Un split en la sala y otro en la habitación. Por favor, apaga al salir."
+        }
+      },
+      {
+        "icon": "tv",
+        "title": {
+          "pt": "Smart TV",
+          "en": "Smart TV",
+          "es": "Smart TV"
+        },
+        "description": {
+          "pt": "Use seu próprio login da Netflix/Prime. Lembre-se de sair antes do check-out.",
+          "en": "Use your own Netflix/Prime login. Remember to log out before check-out.",
+          "es": "Usa tu propio login de Netflix/Prime. Recuerda cerrar sesión antes del check-out."
+        }
+      },
+      {
+        "icon": "kitchen",
+        "title": {
+          "pt": "Cozinha",
+          "en": "Kitchen",
+          "es": "Cocina"
+        },
+        "description": {
+          "pt": "Cozinha equipada com cooktop por indução, microondas e cafeteira Nespresso.",
+          "en": "Kitchen with induction cooktop, microwave and Nespresso machine.",
+          "es": "Cocina con cocina de inducción, microondas y cafetera Nespresso."
+        }
+      },
+      {
+        "icon": "pool",
+        "title": {
+          "pt": "Lazer do prédio",
+          "en": "Building amenities",
+          "es": "Áreas comunes"
+        },
+        "description": {
+          "pt": "Piscina, academia e coworking no rooftop. Funcionam das 6h às 22h.",
+          "en": "Rooftop pool, gym and coworking space. Open from 6am to 10pm.",
+          "es": "Piscina, gimnasio y coworking en el rooftop. Abierto de 6h a 22h."
+        }
+      },
+      {
+        "icon": "trash",
+        "title": {
+          "pt": "Lixo",
+          "en": "Trash",
+          "es": "Basura"
+        },
+        "description": {
+          "pt": "Lixeira no hall do andar, perto do elevador de serviço.",
+          "en": "Trash bin in the floor hall, near the service elevator.",
+          "es": "Basurero en el hall del piso, cerca del ascensor de servicio."
+        }
+      }
+    ]
+  },
+  "rules": [
+    {
+      "pt": "Horário de silêncio: 22h às 08h.",
+      "en": "Quiet hours: 10pm to 8am.",
+      "es": "Horario de silencio: 22h a 08h."
+    },
+    {
+      "pt": "Proibido fumar dentro do apartamento (inclui varanda).",
+      "en": "No smoking inside the apartment (including balcony).",
+      "es": "Prohibido fumar dentro del apartamento (incluida la terraza)."
+    },
+    {
+      "pt": "Visitas só com aviso prévio na portaria.",
+      "en": "Visitors must be announced at the reception in advance.",
+      "es": "Visitas solo con aviso previo en la recepción."
+    },
+    {
+      "pt": "Animais não são permitidos.",
+      "en": "Pets are not allowed.",
+      "es": "No se permiten mascotas."
+    }
+  ],
+  "tips": [
+    {
+      "category": "mercado",
+      "name": "Mercado Municipal Paulistano (Mercadão)",
+      "distance": "1km",
+      "mapsQuery": "Mercado+Municipal+Paulistano",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/ROGERIOCASSIMIRO_MERCADOMUNICIPAL_SAOPAULO_SP_%2840066551745%29.jpg/800px-ROGERIOCASSIMIRO_MERCADOMUNICIPAL_SAOPAULO_SP_%2840066551745%29.jpg",
+      "description": {
+        "pt": "Templo gastronômico de SP. Famoso pelo sanduíche de mortadela e pastel de bacalhau.",
+        "en": "São Paulo's gastronomic temple. Famous for the mortadella sandwich and codfish pastry.",
+        "es": "Templo gastronómico de SP. Famoso por el sándwich de mortadela y la empanada de bacalao."
+      }
+    },
+    {
+      "category": "mercado",
+      "name": "Sonda Santa Cecília",
+      "distance": "750m",
+      "mapsQuery": "Sonda+Supermercado+Santa+Cecilia",
+      "description": {
+        "pt": "Supermercado completo, prático para o dia a dia. Aberto até 22h.",
+        "en": "Full supermarket, practical for daily groceries. Open until 10pm.",
+        "es": "Supermercado completo, práctico para el día a día. Abierto hasta 22h."
+      }
+    },
+    {
+      "category": "padaria",
+      "name": "Padaria Bella Paulista",
+      "distance": "1.8km",
+      "mapsQuery": "Padaria+Bella+Paulista",
+      "description": {
+        "pt": "Padaria 24h em Higienópolis, ótima para um café da manhã reforçado.",
+        "en": "24h bakery in Higienópolis, perfect for a hearty breakfast.",
+        "es": "Panadería 24h en Higienópolis, perfecta para un desayuno abundante."
+      }
+    },
+    {
+      "category": "restaurante",
+      "name": "A Casa do Porco",
+      "distance": "1.2km",
+      "mapsQuery": "A+Casa+do+Porco+Sao+Paulo",
+      "description": {
+        "pt": "Um dos melhores restaurantes do mundo, do chef Jefferson Rueda. Reserve antes.",
+        "en": "One of the world's best restaurants by chef Jefferson Rueda. Book in advance.",
+        "es": "Uno de los mejores restaurantes del mundo, del chef Jefferson Rueda. Reserva antes."
+      }
+    },
+    {
+      "category": "restaurante",
+      "name": "Famiglia Mancini",
+      "distance": "1.4km",
+      "mapsQuery": "Famiglia+Mancini+Avanhandava",
+      "description": {
+        "pt": "Cantina italiana clássica na Rua Avanhandava. Massa e antepasto históricos.",
+        "en": "Classic Italian cantina on Rua Avanhandava. Iconic pasta and antipasti.",
+        "es": "Cantina italiana clásica en Rua Avanhandava. Pasta y antipasti icónicos."
+      }
+    },
+    {
+      "category": "oQueFazer",
+      "name": "Sala São Paulo",
+      "distance": "350m",
+      "mapsQuery": "Sala+Sao+Paulo",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/J%C3%BAlio_Prestes_Station_in_S%C3%A3o_Paulo%2C_Brazil.jpg/800px-J%C3%BAlio_Prestes_Station_in_S%C3%A3o_Paulo%2C_Brazil.jpg",
+      "description": {
+        "pt": "Casa de concertos da OSESP, dentro da Estação Júlio Prestes. Acústica espetacular.",
+        "en": "OSESP concert hall inside Estação Júlio Prestes. Stunning acoustics.",
+        "es": "Sala de conciertos de OSESP en la Estação Júlio Prestes. Acústica espectacular."
+      }
+    },
+    {
+      "category": "oQueFazer",
+      "name": "Edifício Copan",
+      "distance": "1.3km",
+      "mapsQuery": "Edificio+Copan+Sao+Paulo",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Copan_ST.jpg/800px-Copan_ST.jpg",
+      "description": {
+        "pt": "Ícone modernista do Niemeyer. Vale a foto e o pé-de-meia no térreo.",
+        "en": "Niemeyer's modernist icon. Worth a photo and a coffee on the ground floor.",
+        "es": "Ícono modernista de Niemeyer. Vale la foto y un café en planta baja."
+      }
+    },
+    {
+      "category": "cultura",
+      "name": "Pinacoteca de São Paulo",
+      "distance": "550m",
+      "mapsQuery": "Pinacoteca+Estado+Sao+Paulo",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Pinacoteca_de_S%C3%A3o_Paulo%2C_Brazil.jpg/800px-Pinacoteca_de_S%C3%A3o_Paulo%2C_Brazil.jpg",
+      "description": {
+        "pt": "Um dos museus mais antigos da cidade. Acervo de arte brasileira imperdível.",
+        "en": "One of the city's oldest museums. A must-see Brazilian art collection.",
+        "es": "Uno de los museos más antiguos. Acervo de arte brasileño imperdible."
+      }
+    },
+    {
+      "category": "cultura",
+      "name": "Museu da Língua Portuguesa",
+      "distance": "650m",
+      "mapsQuery": "Museu+Lingua+Portuguesa+Estacao+Luz",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Luzbx.jpg/800px-Luzbx.jpg",
+      "description": {
+        "pt": "Museu interativo dentro da histórica Estação da Luz. Experiência sensorial sobre o idioma.",
+        "en": "Interactive museum inside the historic Estação da Luz. Sensory journey through the language.",
+        "es": "Museo interactivo dentro de la histórica Estação da Luz. Experiencia sensorial del idioma."
+      }
+    },
+    {
+      "category": "lojas",
+      "name": "Rua 25 de Março",
+      "distance": "1.5km",
+      "mapsQuery": "Rua+25+de+Marco+Sao+Paulo",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Rua_25_de_Mar%C3%A7o_1.jpg/800px-Rua_25_de_Mar%C3%A7o_1.jpg",
+      "description": {
+        "pt": "Comércio popular gigante. Eletrônicos, festas, decoração — tudo mais barato.",
+        "en": "Huge popular shopping street. Electronics, party supplies, decor — all cheaper.",
+        "es": "Calle comercial popular gigante. Electrónica, fiestas, decoración — todo más barato."
+      }
+    },
+    {
+      "category": "lojas",
+      "name": "Galeria do Rock",
+      "distance": "1.2km",
+      "mapsQuery": "Galeria+do+Rock+Sao+Paulo",
+      "description": {
+        "pt": "Edifício temático com lojas de discos, cultura urbana, tatuagens e fanzines.",
+        "en": "Themed building with record shops, urban culture, tattoo studios and zines.",
+        "es": "Edificio temático con tiendas de discos, cultura urbana, tatuajes y fanzines."
+      }
+    },
+    {
+      "category": "farmacia",
+      "name": "Drogaria São Paulo 24h",
+      "distance": "300m",
+      "mapsQuery": "Drogaria+Sao+Paulo+Av+Rio+Branco",
+      "description": {
+        "pt": "Farmácia 24h na própria Av. Rio Branco.",
+        "en": "24h pharmacy on Av. Rio Branco itself.",
+        "es": "Farmacia 24h en la propia Av. Rio Branco."
+      }
+    }
+  ],
+  "contact": {
+    "hostName": "Kenia",
+    "hostPhotoInitial": "P",
+    "hostPhone": "5531973119006",
+    "whatsappMessage": {
+      "pt": "Olá Kenia, estou no Apto 1213A do Mapp e preciso de ajuda.",
+      "en": "Hi Kenia, I'm at Mapp Apt 1213A and I need some help.",
+      "es": "Hola Kenia, estoy en el Apto 1213A del Mapp y necesito ayuda."
+    }
+  },
+  "emergency": {
+    "police": "190",
+    "samu": "192",
+    "firefighters": "193"
+  },
+  "theme": {
+    "primary": "#1f3a5f",
+    "accent": "#c9a96e",
+    "background": "#f4f0e8"
+  }
+}

@@ -1,0 +1,153 @@
+---
+import type { Apto } from '../types';
+import { uiAll } from '../i18n/ui';
+import Icon from './Icon.astro';
+import T from './T.astro';
+
+interface Props {
+  apto: Apto;
+}
+
+const { apto } = Astro.props;
+
+const wifiCopy = uiAll('apt.wifi.copy');
+const wifiCopied = uiAll('apt.wifi.copied');
+---
+
+<section id="apto" class="section-anchor mx-auto max-w-6xl px-4 py-20 md:py-28">
+  <div class="mb-10 text-center md:mb-14">
+    <span class="eyebrow"><T text={uiAll('nav.apto')} /></span>
+    <h2 class="section-title mt-2"><T text={uiAll('apt.title')} /></h2>
+    <p class="mx-auto mt-3 max-w-xl text-sm text-stone-600">
+      <T text={uiAll('apt.subtitle')} />
+    </p>
+  </div>
+
+  <div
+    class="card relative overflow-hidden mb-8"
+    style={`background: linear-gradient(135deg, var(--apto-primary) 0%, color-mix(in srgb, var(--apto-primary) 80%, black) 100%);`}
+  >
+    <div class="relative z-10 text-white">
+      <div class="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] opacity-80">
+        <Icon name="wifi" size={14} />
+        <T text={uiAll('apt.connectivity')} />
+      </div>
+      <p class="mt-2 font-serif text-2xl font-semibold">Wi-Fi</p>
+
+      <div class="mt-6 grid gap-4 sm:grid-cols-2">
+        {apto.apartment.wifi.network5g && (
+          <div class="rounded-xl bg-white/10 p-4 backdrop-blur">
+            <p class="text-[11px] font-semibold uppercase tracking-wider opacity-80">
+              <T text={uiAll('apt.wifi.fast')} />
+            </p>
+            <p class="mt-1 break-all text-base font-mono font-semibold">
+              {apto.apartment.wifi.network5g}
+            </p>
+          </div>
+        )}
+        <div class="rounded-xl bg-white/10 p-4 backdrop-blur">
+          <p class="text-[11px] font-semibold uppercase tracking-wider opacity-80">
+            <T text={uiAll('apt.wifi.network')} />
+          </p>
+          <p class="mt-1 break-all text-base font-mono font-semibold">
+            {apto.apartment.wifi.network}
+          </p>
+        </div>
+        <div class="rounded-xl bg-white/10 p-4 backdrop-blur sm:col-span-2">
+          <p class="text-[11px] font-semibold uppercase tracking-wider opacity-80">
+            <T text={uiAll('apt.wifi.password')} />
+          </p>
+          <div class="mt-1 flex items-center justify-between gap-2">
+            <p class="break-all text-base font-mono font-semibold">
+              {apto.apartment.wifi.password}
+            </p>
+            <button
+              type="button"
+              class="copy-wifi flex shrink-0 items-center gap-1.5 rounded-full bg-white px-3 py-1.5 text-xs font-semibold text-stone-900 transition hover:bg-stone-100"
+              data-copy={apto.apartment.wifi.password}
+              data-label-copy-pt={wifiCopy.pt}
+              data-label-copy-en={wifiCopy.en}
+              data-label-copy-es={wifiCopy.es}
+              data-label-copied-pt={wifiCopied.pt}
+              data-label-copied-en={wifiCopied.en}
+              data-label-copied-es={wifiCopied.es}
+              aria-label={wifiCopy.pt}
+            >
+              <Icon name="copy" size={14} class="copy-icon" />
+              <Icon name="check" size={14} class="check-icon hidden" />
+              <span class="copy-label">
+                <T text={wifiCopy} />
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-white/5"
+      aria-hidden="true"
+    ></div>
+  </div>
+
+  <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    {apto.apartment.notes.map((note) => (
+      <article class="card card-hover">
+        <div
+          class="flex h-11 w-11 items-center justify-center rounded-xl text-white"
+          style={`background: var(--apto-accent)`}
+        >
+          <Icon name={note.icon as any} size={20} />
+        </div>
+        <h3 class="mt-4 text-base font-semibold text-stone-900">
+          <T text={note.title} />
+        </h3>
+        <p class="mt-1 text-sm leading-relaxed text-stone-600">
+          <T text={note.description} />
+        </p>
+      </article>
+    ))}
+  </div>
+</section>
+
+<script>
+  function getActiveLang(): 'pt' | 'en' | 'es' {
+    const v = document.documentElement.getAttribute('data-lang');
+    return v === 'en' || v === 'es' ? v : 'pt';
+  }
+
+  function buildWifiCopy(label: HTMLElement, suffix: 'copy' | 'copied') {
+    const lang = getActiveLang();
+    label.innerHTML = '';
+    (['pt', 'en', 'es'] as const).forEach((l) => {
+      const span = document.createElement('span');
+      span.setAttribute('data-i18n', l);
+      const btn = label.closest<HTMLButtonElement>('.copy-wifi');
+      span.textContent = btn?.dataset[`label${suffix === 'copy' ? 'Copy' : 'Copied'}${l.toUpperCase() as 'PT' | 'EN' | 'ES'}`] ?? '';
+      label.appendChild(span);
+    });
+    void lang;
+  }
+
+  document.querySelectorAll<HTMLButtonElement>('.copy-wifi').forEach((btn) => {
+    btn.addEventListener('click', async () => {
+      const value = btn.dataset.copy ?? '';
+      const labelEl = btn.querySelector<HTMLElement>('.copy-label');
+      const copyIcon = btn.querySelector<HTMLElement>('.copy-icon');
+      const checkIcon = btn.querySelector<HTMLElement>('.check-icon');
+      try {
+        await navigator.clipboard.writeText(value);
+        if (labelEl) buildWifiCopy(labelEl, 'copied');
+        copyIcon?.classList.add('hidden');
+        checkIcon?.classList.remove('hidden');
+        setTimeout(() => {
+          if (labelEl) buildWifiCopy(labelEl, 'copy');
+          copyIcon?.classList.remove('hidden');
+          checkIcon?.classList.add('hidden');
+        }, 1800);
+      } catch {
+        /* clipboard not available */
+      }
+    });
+  });
+</script>

@@ -1,0 +1,57 @@
+---
+import type { Apto } from '../types';
+import LangSwitcher from './LangSwitcher.astro';
+
+interface Props {
+  apto: Apto;
+}
+
+const { apto } = Astro.props;
+---
+
+<header
+  class="site-header fixed top-0 left-0 right-0 z-40 transition-all duration-300"
+  data-state="top"
+>
+  <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 md:py-4">
+    <a
+      href={`/${apto.slug}`}
+      class="flex items-center gap-2 rounded-full bg-white/70 px-3 py-2 text-sm font-medium text-stone-800 backdrop-blur transition hover:bg-white"
+    >
+      <span
+        class="flex h-7 w-7 items-center justify-center rounded-full text-xs font-bold text-white"
+        style={`background: var(--apto-primary)`}
+      >
+        {apto.shortName.replace(/\D/g, '').slice(-3) || apto.shortName.charAt(0)}
+      </span>
+      <span class="hidden sm:inline">{apto.name}</span>
+      <span class="sm:hidden">{apto.shortName}</span>
+    </a>
+
+    <LangSwitcher />
+  </div>
+</header>
+
+<script>
+  const header = document.querySelector<HTMLElement>('.site-header');
+  if (header) {
+    const onScroll = () => {
+      if (window.scrollY > 40) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    };
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+  }
+</script>
+
+<style>
+  .site-header.scrolled {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(16px) saturate(160%);
+    -webkit-backdrop-filter: blur(16px) saturate(160%);
+    box-shadow: 0 6px 16px -10px rgba(0, 0, 0, 0.18);
+  }
+</style>

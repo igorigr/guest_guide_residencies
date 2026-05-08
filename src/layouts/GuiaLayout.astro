@@ -1,0 +1,95 @@
+---
+import '../styles/global.css';
+import { ClientRouter } from 'astro:transitions';
+import type { Apto } from '../types';
+import { defaultLang } from '../i18n/ui';
+
+interface Props {
+  apto: Apto;
+  title?: string;
+}
+
+const { apto, title } = Astro.props;
+const pageTitle = title ?? `${apto.name} • Guest Guide`;
+
+const themeStyle = `
+  --apto-primary: ${apto.theme?.primary ?? '#7c5e3c'};
+  --apto-accent: ${apto.theme?.accent ?? '#c8a97e'};
+  --apto-bg: ${apto.theme?.background ?? '#f7f1e8'};
+`;
+---
+
+<!doctype html>
+<html lang={defaultLang} data-lang={defaultLang} style={themeStyle}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content={apto.hero.subtitle.pt} />
+    <meta name="theme-color" content={apto.theme?.primary ?? '#7c5e3c'} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={apto.hero.subtitle.pt} />
+    <meta property="og:image" content={apto.hero.image} />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <title>{pageTitle}</title>
+
+    <script is:inline>
+      (function () {
+        var SUPPORTED = ['pt', 'en', 'es'];
+        var lang = null;
+        try {
+          lang = localStorage.getItem('apto-lang');
+        } catch (e) {}
+        if (!lang || SUPPORTED.indexOf(lang) === -1) {
+          var nav = (navigator.language || 'pt').slice(0, 2).toLowerCase();
+          lang = SUPPORTED.indexOf(nav) !== -1 ? nav : 'pt';
+        }
+        document.documentElement.setAttribute('data-lang', lang);
+        document.documentElement.setAttribute('lang', lang);
+      })();
+    </script>
+
+    <ClientRouter />
+  </head>
+  <body class="font-sans">
+    <slot />
+
+    <script>
+      const SUPPORTED = ['pt', 'en', 'es'] as const;
+      type SupportedLang = (typeof SUPPORTED)[number];
+
+      function applyLang(lang: SupportedLang) {
+        const html = document.documentElement;
+        html.setAttribute('data-lang', lang);
+        html.setAttribute('lang', lang);
+        try {
+          localStorage.setItem('apto-lang', lang);
+        } catch {}
+      }
+
+      function initLangButtons() {
+        document.querySelectorAll<HTMLElement>('[data-set-lang]').forEach((btn) => {
+          if (btn.dataset.langBound === '1') return;
+          btn.dataset.langBound = '1';
+          btn.addEventListener('click', () => {
+            const next = btn.dataset.setLang as SupportedLang;
+            if (SUPPORTED.includes(next)) applyLang(next);
+          });
+        });
+      }
+
+      initLangButtons();
+      document.addEventListener('astro:page-load', initLangButtons);
+    </script>
+  </body>
+</html>

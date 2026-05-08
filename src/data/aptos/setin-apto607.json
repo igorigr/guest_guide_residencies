@@ -1,0 +1,410 @@
+{
+  "slug": "setin-apto607",
+  "name": "Setin • Apto 607",
+  "shortName": "Apto 607",
+  "hero": {
+    "image": "https://www.setin.com.br/storage/59e2225e6efb13226cd84990c85f9614_cropped_2018-06-22_17h33m24s.jpg",
+    "welcome": {
+      "pt": "Seja muito bem-vindo",
+      "en": "A warm welcome",
+      "es": "Una calurosa bienvenida"
+    },
+    "subtitle": {
+      "pt": "Conforto moderno em uma das regiões mais conectadas da cidade.",
+      "en": "Modern comfort in one of the most connected areas of the city.",
+      "es": "Confort moderno en una de las zonas más conectadas de la ciudad."
+    }
+  },
+  "location": {
+    "address": "Praça da República, 401",
+    "unit": "Apto 607",
+    "city": "São Paulo",
+    "state": "SP",
+    "country": "Brasil",
+    "mapsQuery": "Praça+da+República,+401,+São+Paulo",
+    "arrivalSteps": [
+      {
+        "pt": "Identifique-se na portaria 24h informando o número 607.",
+        "en": "Check in at the 24h reception with apartment number 607.",
+        "es": "Identifícate en la recepción 24h con el número 607."
+      },
+      {
+        "pt": "A senha da fechadura digital é enviada por WhatsApp no dia do check-in.",
+        "en": "The smart-lock password is sent via WhatsApp on the day of check-in.",
+        "es": "La contraseña de la cerradura digital se envía por WhatsApp el día del check-in."
+      }
+    ],
+    "transports": [
+      {
+        "type": "metro",
+        "name": "Metrô República",
+        "line": "Linhas 3-Vermelha + 4-Amarela",
+        "walkTime": "2 min",
+        "description": {
+          "pt": "Estação literalmente em frente ao prédio. Conexão direta para Paulista, Luz e Sé.",
+          "en": "Station literally in front of the building. Direct connections to Paulista, Luz and Sé.",
+          "es": "Estación literalmente frente al edificio. Conexión directa a Paulista, Luz y Sé."
+        }
+      },
+      {
+        "type": "metro",
+        "name": "Metrô Anhangabaú",
+        "line": "Linha 3-Vermelha",
+        "walkTime": "7 min",
+        "description": {
+          "pt": "Próxima estação rumo à Sé. Bom acesso ao Vale do Anhangabaú e Theatro Municipal.",
+          "en": "Next station toward Sé. Easy access to Vale do Anhangabaú and Theatro Municipal.",
+          "es": "Próxima estación hacia Sé. Buen acceso al Vale do Anhangabaú y Theatro Municipal."
+        }
+      },
+      {
+        "type": "metro",
+        "name": "Metrô Higienópolis-Mackenzie",
+        "line": "Linha 4-Amarela",
+        "walkTime": "10 min",
+        "description": {
+          "pt": "1 estação de distância. Bairro charmoso com cafeterias e restaurantes.",
+          "en": "1 stop away. Charming neighborhood with cafés and restaurants.",
+          "es": "A 1 parada. Barrio con encanto, cafeterías y restaurantes."
+        }
+      },
+      {
+        "type": "airport",
+        "name": "Aeroporto de Congonhas (CGH)",
+        "walkTime": "25 min",
+        "description": {
+          "pt": "~25 min de Uber/99 em condições normais. Voos domésticos.",
+          "en": "~25 min by Uber/99 in normal traffic. Domestic flights.",
+          "es": "~25 min en Uber/99 con tráfico normal. Vuelos domésticos."
+        }
+      },
+      {
+        "type": "airport",
+        "name": "Aeroporto de Guarulhos (GRU)",
+        "walkTime": "50 min",
+        "description": {
+          "pt": "~50 min de carro. O Airport Bus Service para na Praça da República (em frente).",
+          "en": "~50 min by car. The Airport Bus Service stops at Praça da República (right outside).",
+          "es": "~50 min en coche. El Airport Bus Service para en Praça da República (frente al edificio)."
+        }
+      },
+      {
+        "type": "station",
+        "name": "Terminal Rodoviário Tietê",
+        "walkTime": "15 min",
+        "description": {
+          "pt": "~15 min via Metrô (República → Sé na Linha 3, baldeação para Linha 1-Azul até Tietê).",
+          "en": "~15 min via Metro (República → Sé on Line 3, transfer to Blue Line 1 to Tietê).",
+          "es": "~15 min en Metro (República → Sé en Línea 3, transbordo a Línea 1 azul hasta Tietê)."
+        }
+      }
+    ]
+  },
+  "schedule": {
+    "checkIn": "14:00",
+    "checkOut": "11:00",
+    "flexibilityNote": {
+      "pt": "Posso tentar antecipar o check-in ou estender o check-out — pergunte no WhatsApp.",
+      "en": "I can try to allow earlier check-in or later check-out — just ask on WhatsApp.",
+      "es": "Puedo intentar adelantar el check-in o extender el check-out — pregunta por WhatsApp."
+    }
+  },
+  "apartment": {
+    "wifi": {
+      "network": "Setin607",
+      "network5g": "Setin607_5G",
+      "password": "setin607@vila"
+    },
+    "notes": [
+      {
+        "icon": "ac",
+        "title": {
+          "pt": "Ar-condicionado",
+          "en": "Air conditioning",
+          "es": "Aire acondicionado"
+        },
+        "description": {
+          "pt": "Split silencioso na sala/quarto integrado. Por favor, desligue ao sair.",
+          "en": "Quiet split AC in the open living/bedroom. Please turn off when leaving.",
+          "es": "Split silencioso en sala/habitación integrada. Por favor apaga al salir."
+        }
+      },
+      {
+        "icon": "shower",
+        "title": {
+          "pt": "Chuveiro elétrico",
+          "en": "Electric shower",
+          "es": "Ducha eléctrica"
+        },
+        "description": {
+          "pt": "Para mudar a temperatura, desligue o chuveiro antes de girar o registro.",
+          "en": "To change temperature, turn off the shower before adjusting the dial.",
+          "es": "Para cambiar la temperatura, apaga la ducha antes de girar el regulador."
+        }
+      },
+      {
+        "icon": "kitchen",
+        "title": {
+          "pt": "Cooktop e forno",
+          "en": "Cooktop and oven",
+          "es": "Cocina y horno"
+        },
+        "description": {
+          "pt": "Cooktop por indução: só funciona com panelas magnéticas.",
+          "en": "Induction cooktop: only works with magnetic-bottom pans.",
+          "es": "Cocina de inducción: solo funciona con sartenes magnéticas."
+        }
+      },
+      {
+        "icon": "laundry",
+        "title": {
+          "pt": "Lavadora",
+          "en": "Washing machine",
+          "es": "Lavadora"
+        },
+        "description": {
+          "pt": "Lava-e-seca disponível. Sabão e amaciante embaixo da pia.",
+          "en": "Washer-dryer available. Detergent and softener under the sink.",
+          "es": "Lavadora-secadora disponible. Detergente y suavizante bajo el fregadero."
+        }
+      },
+      {
+        "icon": "gym",
+        "title": {
+          "pt": "Áreas comuns",
+          "en": "Common areas",
+          "es": "Áreas comunes"
+        },
+        "description": {
+          "pt": "Academia, sala de jogos e coworking no térreo, das 6h às 23h.",
+          "en": "Gym, game room and coworking on the ground floor, 6am–11pm.",
+          "es": "Gimnasio, sala de juegos y coworking en planta baja, 6h–23h."
+        }
+      }
+    ]
+  },
+  "rules": [
+    {
+      "pt": "Horário de silêncio: 22h às 08h.",
+      "en": "Quiet hours: 10pm to 8am.",
+      "es": "Horario de silencio: 22h a 08h."
+    },
+    {
+      "pt": "Proibido fumar (incluindo varanda e áreas comuns).",
+      "en": "No smoking (including balcony and common areas).",
+      "es": "Prohibido fumar (incluida terraza y áreas comunes)."
+    },
+    {
+      "pt": "Festas e eventos não são permitidos.",
+      "en": "Parties and events are not allowed.",
+      "es": "No se permiten fiestas ni eventos."
+    },
+    {
+      "pt": "Apague todas as luzes ao sair, por favor.",
+      "en": "Please turn off all lights when leaving.",
+      "es": "Apaga todas las luces al salir, por favor."
+    }
+  ],
+  "tips": [
+    {
+      "category": "mercado",
+      "name": "Mercado Municipal Paulistano (Mercadão)",
+      "distance": "1km",
+      "mapsQuery": "Mercado+Municipal+Paulistano",
+      "image": "https://cdn.prod.website-files.com/63d3c43a87589374d0a09844/68cc3f92d74237b055a62b2b_Mercad%C3%A3o%20SP.jpeg",
+      "description": {
+        "pt": "Templo gastronômico de SP. Sanduíche de mortadela e pastel de bacalhau imperdíveis.",
+        "en": "São Paulo's gastronomic temple. The mortadella sandwich and codfish pastry are a must.",
+        "es": "Templo gastronómico de SP. Imperdible el sándwich de mortadela y empanada de bacalao."
+      }
+    },
+    {
+      "category": "mercado",
+      "name": "Hirota Food República",
+      "distance": "350m",
+      "mapsQuery": "Hirota+Food+Republica",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/8a/20/13/inside.jpg?w=1000&h=-1&s=1",
+      "description": {
+        "pt": "Mercadinho prático para compras rápidas, em frente à praça.",
+        "en": "Convenient grocery for quick shopping, right by the square.",
+        "es": "Mini-mercado práctico para compras rápidas, frente a la plaza."
+      }
+    },
+    {
+      "category": "padaria",
+      "name": "Padaria Bella Paulista",
+      "distance": "1.5km",
+      "mapsQuery": "Padaria+Bella+Paulista",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/17/e5/85/23/bela-adega-de-vinhos.jpg",
+      "description": {
+        "pt": "Clássica padaria 24h em Higienópolis. Vale o passeio noturno.",
+        "en": "Classic 24h bakery in Higienópolis. A nice late-night stroll.",
+        "es": "Clásica panadería 24h en Higienópolis. Vale el paseo nocturno."
+      }
+    },
+    {
+      "category": "restaurante",
+      "name": "Bar Brahma",
+      "distance": "200m",
+      "mapsQuery": "Bar+Brahma+Sao+Paulo",
+      "image": "https://foodbizbrasil.com/wp-content/uploads/2025/10/bar-brahma-chope.webp",
+      "description": {
+        "pt": "Bar histórico de SP, na esquina da Ipiranga com a São João. Música ao vivo à noite.",
+        "en": "Historic SP bar at the corner of Ipiranga and São João. Live music at night.",
+        "es": "Bar histórico de SP en la esquina de Ipiranga con São João. Música en vivo de noche."
+      }
+    },
+    {
+      "category": "restaurante",
+      "name": "A Casa do Porco",
+      "distance": "650m",
+      "mapsQuery": "A+Casa+do+Porco+Sao+Paulo",
+      "image": "https://exame.com/wp-content/uploads/2020/09/A-Casa-do-Porco_Porco-San-Ze_Cred-Mauro-Holanda-1.jpg?quality=70&strip=info",
+      "description": {
+        "pt": "Um dos melhores restaurantes do mundo, do chef Jefferson Rueda. Reserve antes.",
+        "en": "One of the world's best restaurants by chef Jefferson Rueda. Book in advance.",
+        "es": "Uno de los mejores restaurantes del mundo, del chef Jefferson Rueda. Reserva antes."
+      }
+    },
+    {
+      "category": "restaurante",
+      "name": "Famiglia Mancini",
+      "distance": "600m",
+      "mapsQuery": "Famiglia+Mancini+Avanhandava",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/16/aa/0c/restaurante-famiglia.jpg?w=800&h=500&s=1",
+      "description": {
+        "pt": "Cantina italiana clássica na Rua Avanhandava (rua só de cantinas).",
+        "en": "Classic Italian cantina on Rua Avanhandava (an entire street of cantinas).",
+        "es": "Cantina italiana clásica en Rua Avanhandava (una calle entera de cantinas)."
+      }
+    },
+    {
+      "category": "oQueFazer",
+      "name": "Praça da República (Feira de Domingo)",
+      "distance": "0m",
+      "mapsQuery": "Praca+da+Republica+Sao+Paulo",
+      "image": "https://i1.wp.com/spcity.com.br/wp-content/uploads/2017/04/feira-da-republica.jpg?fit=1300%2C917&ssl=1",
+      "description": {
+        "pt": "Aos domingos rola feira de artesanato, comida e antiguidades em frente ao prédio.",
+        "en": "On Sundays: an arts, food and antiques fair right outside the building.",
+        "es": "Los domingos: feria de artesanía, comida y antigüedades frente al edificio."
+      }
+    },
+    {
+      "category": "oQueFazer",
+      "name": "Edifício Copan",
+      "distance": "300m",
+      "mapsQuery": "Edificio+Copan+Sao+Paulo",
+      "image": "https://buscacbre.agdp.com.br/media/uploads/_95a5302.jpg-1692192828174.jpeg",
+      "description": {
+        "pt": "Ícone modernista do Niemeyer com a famosa fachada ondulada. Vale a foto.",
+        "en": "Niemeyer's modernist icon with its famous wavy façade. Worth the photo.",
+        "es": "Ícono modernista de Niemeyer con su famosa fachada ondulada. Vale la foto."
+      }
+    },
+    {
+      "category": "oQueFazer",
+      "name": "Edifício Itália — Terraço Itália",
+      "distance": "400m",
+      "mapsQuery": "Terraco+Italia+Sao+Paulo",
+      "image": "https://spcity.com.br/wp-content/uploads/2017/01/terraco_italia3.jpg",
+      "description": {
+        "pt": "Mirante 360° no andar mais alto. Vista incrível, especialmente ao pôr do sol.",
+        "en": "360° viewpoint on the top floor. Stunning view, especially at sunset.",
+        "es": "Mirador 360° en el piso más alto. Vista increíble, sobre todo al atardecer."
+      }
+    },
+    {
+      "category": "cultura",
+      "name": "Theatro Municipal de São Paulo",
+      "distance": "700m",
+      "mapsQuery": "Theatro+Municipal+Sao+Paulo",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/ed/06/61/theatro-municipa-de-sao.jpg?w=900&h=500&s=1",
+      "description": {
+        "pt": "Teatro icônico no Vale do Anhangabaú. Programação de ópera, ballet e concertos.",
+        "en": "Iconic theater in Vale do Anhangabaú. Opera, ballet and concerts.",
+        "es": "Teatro icónico en Vale do Anhangabaú. Ópera, ballet y conciertos."
+      }
+    },
+    {
+      "category": "cultura",
+      "name": "Pinacoteca de São Paulo",
+      "distance": "1.2km",
+      "mapsQuery": "Pinacoteca+Estado+Sao+Paulo",
+      "image": "https://saopaulosao.com.br/wp-content/uploads/2021/12/pinacoteca_antiga_divulgacao.jpg",
+      "description": {
+        "pt": "Um dos museus mais antigos da cidade, com forte acervo brasileiro.",
+        "en": "One of the city's oldest museums, with a strong Brazilian art collection.",
+        "es": "Uno de los museos más antiguos, con un fuerte acervo brasileño."
+      }
+    },
+    {
+      "category": "cultura",
+      "name": "MASP",
+      "distance": "1.8km",
+      "mapsQuery": "MASP+Avenida+Paulista",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/fe/64/8d/masp-en-la-avenida-paulista.jpg?w=900&h=500&s=1",
+      "description": {
+        "pt": "Museu de Arte de SP na Av. Paulista. Cavaletes de cristal icônicos.",
+        "en": "São Paulo Art Museum on Av. Paulista. Famous glass-easel display.",
+        "es": "Museo de Arte de SP en Av. Paulista. Famosos caballetes de cristal."
+      }
+    },
+    {
+      "category": "lojas",
+      "name": "Galeria do Rock",
+      "distance": "350m",
+      "mapsQuery": "Galeria+do+Rock+Sao+Paulo",
+      "image": "https://cidadedesaopaulo.com/wp-content/uploads/2025/03/Galeria-do-Rock_110322_Foto_JoseCordeiro_0124.jpg",
+      "description": {
+        "pt": "Edifício temático com lojas de discos, tatuagens e cultura urbana.",
+        "en": "Themed building with record shops, tattoo studios and urban culture.",
+        "es": "Edificio temático con tiendas de discos, tatuajes y cultura urbana."
+      }
+    },
+    {
+      "category": "lojas",
+      "name": "Shopping Light",
+      "distance": "650m",
+      "mapsQuery": "Shopping+Light+Sao+Paulo",
+      "image": "https://www.saopauloinfoco.com.br/wp-content/uploads/2013/10/shopping_light11.jpg",
+      "description": {
+        "pt": "Shopping integrado ao Metrô Anhangabaú, prático para compras rápidas.",
+        "en": "Mall connected to Metrô Anhangabaú, handy for quick shopping.",
+        "es": "Centro comercial conectado al Metrô Anhangabaú, práctico para compras rápidas."
+      }
+    },
+    {
+      "category": "farmacia",
+      "name": "Drogaria São Paulo 24h",
+      "distance": "150m",
+      "mapsQuery": "Drogaria+Sao+Paulo+Praca+Republica",
+      "image": "https://riomarrecife.com.br/storage/stores/vitrine_294.jpg",
+      "description": {
+        "pt": "Farmácia 24h ao lado da Praça da República.",
+        "en": "24h pharmacy next to Praça da República.",
+        "es": "Farmacia 24h junto a la Praça da República."
+      }
+    }
+  ],
+  "contact": {
+    "hostName": "Kenia",
+    "hostPhotoInitial": "P",
+    "hostPhone": "5531973119006",
+    "whatsappMessage": {
+      "pt": "Olá Kenia, estou no Apto 607 do Setin e preciso de uma informação.",
+      "en": "Hi Kenia, I'm at Setin Apt 607 and I need some info.",
+      "es": "Hola Kenia, estoy en el Apto 607 del Setin y necesito información."
+    }
+  },
+  "emergency": {
+    "police": "190",
+    "samu": "192",
+    "firefighters": "193"
+  },
+  "theme": {
+    "primary": "#2d3142",
+    "accent": "#ef8354",
+    "background": "#f4f4f4"
+  }
+}

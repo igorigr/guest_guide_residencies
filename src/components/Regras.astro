@@ -1,0 +1,33 @@
+---
+import type { Apto } from '../types';
+import { uiAll } from '../i18n/ui';
+import Icon from './Icon.astro';
+import T from './T.astro';
+
+interface Props {
+  apto: Apto;
+}
+
+const { apto } = Astro.props;
+---
+
+<section id="regras" class="section-anchor mx-auto max-w-6xl px-4 py-20 md:py-28">
+  <div class="mb-10 text-center md:mb-14">
+    <span class="eyebrow"><T text={uiAll('nav.rules')} /></span>
+    <h2 class="section-title mt-2"><T text={uiAll('rules.title')} /></h2>
+  </div>
+
+  <ul class="mx-auto grid max-w-4xl gap-3 sm:grid-cols-2">
+    {apto.rules.map((rule) => (
+      <li class="card flex items-start gap-3">
+        <span
+          class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-white"
+          style={`background: var(--apto-primary)`}
+        >
+          <Icon name="check" size={14} />
+        </span>
+        <span class="text-stone-700"><T text={rule} /></span>
+      </li>
+    ))}
+  </ul>
+</section>

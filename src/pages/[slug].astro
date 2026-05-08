@@ -1,0 +1,48 @@
+---
+import { aptos, getApto } from '../data/aptos';
+import GuiaLayout from '../layouts/GuiaLayout.astro';
+import Header from '../components/Header.astro';
+import MobileNav from '../components/MobileNav.astro';
+import Hero from '../components/Hero.astro';
+import ComoChegar from '../components/ComoChegar.astro';
+import CheckIn from '../components/CheckIn.astro';
+import Apartamento from '../components/Apartamento.astro';
+import Regras from '../components/Regras.astro';
+import Dicas from '../components/Dicas.astro';
+import Contato from '../components/Contato.astro';
+import { uiAll } from '../i18n/ui';
+import T from '../components/T.astro';
+
+export function getStaticPaths() {
+  return aptos.map((apto) => ({
+    params: { slug: apto.slug },
+    props: { aptoSlug: apto.slug },
+  }));
+}
+
+const { aptoSlug } = Astro.props;
+const apto = getApto(aptoSlug);
+
+if (!apto) return Astro.redirect('/');
+---
+
+<GuiaLayout apto={apto}>
+  <Header apto={apto} />
+  <Hero apto={apto} />
+
+  <main>
+    <ComoChegar apto={apto} />
+    <CheckIn apto={apto} />
+    <Apartamento apto={apto} />
+    <Regras apto={apto} />
+    <Dicas apto={apto} />
+    <Contato apto={apto} />
+
+    <footer class="px-4 py-10 text-center text-xs text-stone-500">
+      <p><T text={uiAll('footer.madeWith')} /></p>
+      <p class="mt-1 font-mono">{apto.name}</p>
+    </footer>
+  </main>
+
+  <MobileNav />
+</GuiaLayout>
