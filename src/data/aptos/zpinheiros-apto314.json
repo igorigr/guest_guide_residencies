@@ -90,7 +90,7 @@
     ]
   },
   "schedule": {
-    "checkIn": "14:00",
+    "checkIn": "15:00",
     "checkOut": "11:00",
     "flexibilityNote": {
       "pt": "Precisa de flexibilidade nos horários? Envie uma mensagem no WhatsApp! Não consigo garantir, mas farei o máximo.",
@@ -100,9 +100,9 @@
   },
   "apartment": {
     "wifi": {
-      "network": "ZPinheiros314_2G",
-      "network5g": "ZPinheiros314_5G",
-      "password": "pinheiros314"
+      "network": "Vivo 314",
+      "network5g": "Vivo 314-5G",
+      "password": "13292722"
     },
     "notes": [
       {
@@ -126,9 +126,9 @@
           "es": "Ducha"
         },
         "description": {
-          "pt": "Para mudar a temperatura, desligue o chuveiro antes. Pode pingar um pouco depois (normal).",
-          "en": "To change temperature, turn off the shower first. It may drip a bit after (normal).",
-          "es": "Para cambiar la temperatura, apaga la ducha antes. Puede gotear un poco después (normal)."
+          "pt": "O chuveiro é a gás, possui duas torneiras, a da esquerda é água quente e a da direita é água fria. Para uma melhor tempratura abra um pouco das duas torneiras.",
+          "en": "The shower is gas, you have two faucets, the left one is hot water and the right one is cold water. To get a better temperature, open a little of both faucets.",
+          "es": "El ducha es a gas, tienes dos llaves, la de la izquierda es agua caliente y la de la derecha es agua fría. Para obtener una mejor temperatura, abre un poco de ambas llaves."
         }
       },
       {
@@ -152,9 +152,9 @@
           "es": "Basura"
         },
         "description": {
-          "pt": "Descarte na porta ao lado da entrada de serviço. O porteiro auxilia lá embaixo.",
-          "en": "Dispose at the door next to the service entrance. The doorman can help downstairs.",
-          "es": "Tira la basura en la puerta junto a la entrada de servicio. El portero ayuda abajo."
+          "pt": "Se precisar descartar lixo, a lixeira do prédio está no 1º subsolo, saindo do elevador ao seu lado direito.",
+          "en": "If you need to dispose of trash, the building's trash bin is in the 1st basement, exiting the elevator to your right.",
+          "es": "Si necesitas tirar la basura, la papelera del edificio está en el primer sótano, saliendo del ascensor a tu derecha."
         }
       }
     ]
@@ -187,6 +187,7 @@
       "name": "Pão de Açúcar Pinheiros",
       "distance": "600m",
       "mapsQuery": "Pao+de+Acucar+Pinheiros+Sao+Paulo",
+      "image": "https://foodbizbrasil.com/wp-content/uploads/2025/01/minuto-pao-de-acucar-1-925x400-1.png",
       "description": {
         "pt": "Supermercado completo com padaria, rotisserie e adega. Aberto até 22h.",
         "en": "Full supermarket with bakery, deli and wine cellar. Open until 10pm.",
@@ -198,6 +199,7 @@
       "name": "Oba Hortifruti Pinheiros",
       "distance": "400m",
       "mapsQuery": "Oba+Hortifruti+Pinheiros",
+      "image": "https://gazetadepinheiros.com.br/images/noticias/682/682163148.jpg",
       "description": {
         "pt": "Frutas, legumes e verduras fresquíssimos. Ideal para uma estadia mais longa.",
         "en": "Super-fresh fruits and vegetables. Great for longer stays.",
@@ -205,10 +207,35 @@
       }
     },
     {
+      "category": "mercado",
+      "name": "Mercado Municipal de Pinheiros",
+      "distance": "700m",
+      "mapsQuery": "Mercado+Municipal+de+Pinheiros",
+      "image": "https://www.topensandoemviajar.com/wp-content/uploads/2022/12/mercado-de-pinheiros-sp-geral.jpg",
+      "description": {
+        "pt": "Mercado completo com padaria, restaurantes, rotisserie e adega. Aberto das 8h às 20h.",
+        "en": "Market with bakery, restaurant, deli and wine cellar. Open from 8am to 8pm.",
+        "es": "Mercado con panadería, restaurante, rotisería y bodega. Abierto de 8am a 8pm."
+      }
+    },
+    {
+      "category": "padaria",
+      "name": "Fazemos Pão - Padaria Artesanal",
+      "distance": "288m",
+      "mapsQuery": "Fazemos+Pao+Padaria+Artesanal",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/61/e4/d0/nossa-fachada.jpg?w=900&h=500&s=1",
+      "description": {
+        "pt": "Padaria artesanal com pães e cafés da manhã memoráveis. Aberto das 7h às 20h.",
+        "en": "Artisan bakery with artisan breads and memorable breakfasts. Open from 7am to 8pm.",
+        "es": "Panadería artesanal con panes y desayunos memorables. Abierto de 7am a 8pm."
+      }
+    },
+    {
       "category": "padaria",
       "name": "Padoca do Maní",
       "distance": "1.2km",
       "mapsQuery": "Padoca+do+Mani+Jardins",
+      "image": "https://vejasp.abril.com.br/wp-content/uploads/2016/11/lo3d2209.jpeg?quality=70&strip=info&w=800&w=636",
       "description": {
         "pt": "Padaria autoral da chef Helena Rizzo. Pães artesanais e cafés da manhã memoráveis.",
         "en": "Chef Helena Rizzo's signature bakery. Artisan breads and memorable breakfasts.",
@@ -220,6 +247,7 @@
       "name": "Bráz Pizzaria",
       "distance": "1.3km",
       "mapsQuery": "Braz+Pizzaria+Vupabucu+Pinheiros",
+      "image": "https://familiabraz.com.br/wp-content/uploads/2024/10/IMG_3065-scaled.jpg",
       "description": {
         "pt": "Uma das melhores pizzarias de São Paulo. Reserve com antecedência.",
         "en": "One of the best pizzerias in São Paulo. Book in advance.",
@@ -231,6 +259,7 @@
       "name": "Z Deli Pinheiros",
       "distance": "900m",
       "mapsQuery": "Z+Deli+Pinheiros",
+      "image": "https://zdeli.com.br/assets/img/zdeli_unidade-pinheiros.jpg",
       "description": {
         "pt": "Sanduíches e hambúrgueres premium em estilo nova-iorquino.",
         "en": "Premium NY-style sandwiches and burgers.",
@@ -238,11 +267,24 @@
       }
     },
     {
+      "category": "restaurante",
+      "name": "Consulado da Bahia - Pinheiros",
+      "distance": "500m",
+      "mapsQuery": "Consulado+da+Bahia+rua+dos+Pinheiros+Pinheiros",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/c2/46/46/porcao-de-acarajes.jpg?w=900&h=500&s=1",
+      "description": {
+        "pt": "Restaurante com comida baiana e frutos do mar. Aberto das 11h às 22h.",
+        "en": "Restaurant with Bahian food and seafood. Open from 11am to 10pm.",
+        "es": "Restaurante con comida bahiana y mariscos. Abierto de 11am a 10pm."
+      }
+    },
+
+    {
       "category": "oQueFazer",
       "name": "Praça Benedito Calixto",
       "distance": "700m",
       "mapsQuery": "Praca+Benedito+Calixto",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Restaurante_em_frente_%C3%A0_Pra%C3%A7a_Benedito_Calixto.jpg/800px-Restaurante_em_frente_%C3%A0_Pra%C3%A7a_Benedito_Calixto.jpg",
+      "image": "https://vejasp.abril.com.br/wp-content/uploads/2016/11/3030_feirinha-benedito-calixto.jpeg?crop=1&resize=1212,909",
       "description": {
         "pt": "Aos sábados rola feira de antiguidades, gastronomia e roda de chorinho.",
         "en": "On Saturdays: an antiques, food and live samba market.",
@@ -254,7 +296,7 @@
       "name": "Beco do Batman",
       "distance": "1.5km",
       "mapsQuery": "Beco+do+Batman+Vila+Madalena",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Beco_do_Batman.png/800px-Beco_do_Batman.png",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT92g18weN8HknNADyRcOZdQfF2ehAST2hDTA&s",
       "description": {
         "pt": "Galeria a céu aberto de grafites na Vila Madalena. Imperdível para fotos.",
         "en": "Open-air street-art gallery in Vila Madalena. A photo must.",
@@ -266,7 +308,7 @@
       "name": "Instituto Tomie Ohtake",
       "distance": "1km",
       "mapsQuery": "Instituto+Tomie+Ohtake",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Instituto_Tomie_Ohtake_-_FCL_01.jpg/800px-Instituto_Tomie_Ohtake_-_FCL_01.jpg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWOE4Asgu8JoAaxGWTpQlkF7iw72wWoM_1yA&s",
       "description": {
         "pt": "Centro cultural na Faria Lima com exposições de arte contemporânea (geralmente gratuitas).",
         "en": "Cultural center on Faria Lima with contemporary art shows (usually free).",
@@ -278,6 +320,19 @@
       "name": "Shopping Eldorado",
       "distance": "2.5km",
       "mapsQuery": "Shopping+Eldorado+Sao+Paulo",
+      "image": "https://allos.com.br/wp-content/uploads/2022/07/eldorado_001.jpg",
+      "description": {
+        "pt": "Shopping completo com cinema, lojas e ampla praça de alimentação.",
+        "en": "Full shopping mall with cinema, stores and a large food court.",
+        "es": "Centro comercial con cine, tiendas y un amplio patio de comidas."
+      }
+    },
+    {
+      "category": "lojas",
+      "name": "Shopping Iguatemi",
+      "distance": "1.5km",
+      "mapsQuery": "Shopping+Iguatemi+Sao+Paulo",
+      "image": "https://vejasp.abril.com.br/wp-content/uploads/2023/08/Iguatemi-Sao-Paulo-1.jpg?crop=1&resize=1212,909",
       "description": {
         "pt": "Shopping completo com cinema, lojas e ampla praça de alimentação.",
         "en": "Full shopping mall with cinema, stores and a large food court.",
@@ -286,13 +341,14 @@
     },
     {
       "category": "farmacia",
-      "name": "Drogasil Rua dos Pinheiros",
+      "name": "Drogaria São Paulo - Rua dos Pinheiros",
       "distance": "200m",
-      "mapsQuery": "Drogasil+Rua+dos+Pinheiros",
+      "mapsQuery": "Drogaria+Sao+Paulo+Rua+dos+Pinheiros",
+      "image": "https://riomarrecife.com.br/storage/stores/vitrine_294.jpg",
       "description": {
-        "pt": "Farmácia da rede Drogasil na própria Rua dos Pinheiros.",
-        "en": "Drogasil pharmacy on Rua dos Pinheiros itself.",
-        "es": "Farmacia Drogasil en la propia Rua dos Pinheiros."
+        "pt": "Farmácia da rede Drogaria São Paulo na própria Rua dos Pinheiros.",
+        "en": "Drogaria São Paulo pharmacy on Rua dos Pinheiros itself.",
+        "es": "Farmacia Drogaria São Paulo en la propia Rua dos Pinheiros."
       }
     }
   ],

@@ -232,6 +232,18 @@
     },
     {
       "category": "padaria",
+      "name": "Mundo Pão Olivier - Praça da República",
+      "distance": "350m",
+      "mapsQuery": "Mundo+Pao+Olivier+Praça+da+República",
+      "image": "https://vejasp.abril.com.br/wp-content/uploads/2025/04/Olivier-Anquier.jpg?quality=70&strip=info&w=1280&h=720&crop=1  ",
+      "description": {
+        "pt": "Padaria com pães e cafés da manhã memoráveis. Aberto das 7h às 20h.",
+        "en": "Bread and breakfast bakery with memorable pastries. Open from 7am to 8pm.",
+        "es": "Panadería con pasteles y desayunos memorables. Abierto de 7am a 8pm."
+      }
+    },
+    {
+      "category": "padaria",
       "name": "Padaria Bella Paulista",
       "distance": "1.5km",
       "mapsQuery": "Padaria+Bella+Paulista",
@@ -372,6 +384,30 @@
         "pt": "Shopping integrado ao Metrô Anhangabaú, prático para compras rápidas.",
         "en": "Mall connected to Metrô Anhangabaú, handy for quick shopping.",
         "es": "Centro comercial conectado al Metrô Anhangabaú, práctico para compras rápidas."
+      }
+    },
+    {
+      "category": "lojas",
+      "name": "Rua Santa Ifigênia",
+      "distance": "200m",
+      "mapsQuery": "Rua+Santa+Ifigenia+Sao+Paulo",
+      "image": "https://www.lojassantaifigenia.com.br/blog/wp-content/uploads/2019/03/eletronicos-750x410.jpg",
+      "description": {
+        "pt": "Rua com lojas de eletrônicos, decoração e festas. Tudo mais barato.",
+        "en": "Street with electronics, decoration and party supplies shops. All cheaper.",
+        "es": "Calle con tiendas de electrónica, decoración y fiestas. Todo más barato."
+      }
+    },
+    {
+      "category": "lojas",
+      "name": "Rua 25 de Março",
+      "distance": "650m",
+      "mapsQuery": "Rua+25+de+Marco+Sao+Paulo",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIFbTbGyMJLmxw7ejcCagV1-X-INVToqLTyw&s",
+      "description": {
+        "pt": "Comércio popular gigante. Eletrônicos, festas, decoração — tudo mais barato.",
+        "en": "Huge popular shopping street. Electronics, party supplies, decor — all cheaper.",
+        "es": "Calle comercial popular gigante. Electrónica, fiestas, decoración — todo más barato."
       }
     },
     {
