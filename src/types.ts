@@ -40,6 +40,14 @@ export type Tip = {
   image?: string;
 };
 
+export type Parking = {
+  name: string;
+  address: string;
+  mapsQuery: string;
+  info: LocalizedString[];
+  checkoutRules: LocalizedString[];
+};
+
 export type Apto = {
   slug: string;
   name: string;
@@ -72,6 +80,7 @@ export type Apto = {
     };
     notes: ApartmentNote[];
   };
+  parking?: Parking;
   rules: LocalizedString[];
   tips: Tip[];
   contact: {

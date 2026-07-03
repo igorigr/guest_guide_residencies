@@ -1,0 +1,87 @@
+---
+import type { Apto } from '../types';
+import { uiAll } from '../i18n/ui';
+import Icon from './Icon.astro';
+import T from './T.astro';
+
+interface Props {
+  apto: Apto;
+}
+
+const { apto } = Astro.props;
+const parking = apto.parking;
+
+if (!parking) return null;
+
+const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${parking.mapsQuery}`;
+---
+
+<section id="estacionamento" class="section-anchor mx-auto max-w-6xl px-4 py-20 md:py-28">
+  <div class="mb-10 text-center md:mb-14">
+    <span class="eyebrow"><T text={uiAll('nav.parking')} /></span>
+    <h2 class="section-title mt-2"><T text={uiAll('parking.title')} /></h2>
+  </div>
+
+  <div class="mx-auto grid max-w-4xl gap-6">
+    <div class="card card-hover">
+      <div class="flex items-start gap-4">
+        <div
+          class="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl text-white"
+          style={`background: var(--apto-primary)`}
+        >
+          <Icon name="car" size={22} />
+        </div>
+        <div class="flex-1">
+          <p class="text-sm font-semibold uppercase tracking-wide text-stone-500">
+            <T text={uiAll('parking.location')} />
+          </p>
+          <p class="mt-1 text-lg font-semibold text-stone-900">{parking.name}</p>
+          <p class="text-stone-600">{parking.address}</p>
+          <a
+            href={mapsUrl}
+            target="_blank"
+            rel="noopener"
+            class="mt-4 inline-flex items-center gap-2 rounded-full bg-stone-100 px-4 py-2 text-sm font-medium text-stone-800 transition hover:bg-stone-200"
+          >
+            <Icon name="maps" size={16} />
+            <T text={uiAll('parking.openMaps')} />
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <ul class="grid gap-3 sm:grid-cols-2">
+      {parking.info.map((note) => (
+        <li class="card flex items-start gap-3">
+          <span
+            class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-white"
+            style={`background: var(--apto-accent)`}
+          >
+            <Icon name="check" size={14} />
+          </span>
+          <span class="text-stone-700"><T text={note} /></span>
+        </li>
+      ))}
+    </ul>
+
+    <div class="card">
+      <h3 class="mb-4 flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-stone-500">
+        <Icon name="clock" size={16} />
+        <T text={uiAll('parking.checkoutRules')} />
+      </h3>
+      <ul class="space-y-3">
+        {parking.checkoutRules.map((rule) => (
+          <li class="flex items-start gap-3">
+            <span
+              class="mt-0.5 flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-white"
+              style={`background: var(--apto-primary)`}
+            >
+              <Icon name="key" size={14} />
+            </span>
+            <span class="text-stone-700"><T text={rule} /></span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</section>

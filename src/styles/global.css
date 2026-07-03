@@ -99,17 +99,14 @@ body {
   background: rgba(0, 0, 0, 0.08);
 }
 
-.card {
-  background: white;
-  border-radius: 1.25rem;
-  padding: 1.5rem;
-  box-shadow: 0 2px 12px -4px rgba(0, 0, 0, 0.08);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
+@layer components {
+  .card {
+    @apply rounded-[1.25rem] bg-white p-6 shadow-[0_2px_12px_-4px_rgba(0,0,0,0.08)] transition-[transform,box-shadow] duration-[250ms] ease-[ease];
+  }
 
-.card-hover:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 16px 32px -12px rgba(0, 0, 0, 0.18);
+  .card-hover:hover {
+    @apply -translate-y-1 shadow-[0_16px_32px_-12px_rgba(0,0,0,0.18)];
+  }
 }
 
 .section-title {

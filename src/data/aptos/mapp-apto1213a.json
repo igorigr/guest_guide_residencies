@@ -3,7 +3,7 @@
   "name": "Mapp • Apto 1213A",
   "shortName": "Apto 1213A",
   "hero": {
-    "image": "https://www.planoeplano.com.br/estatico/2022/09/29/14/59/46c5f24713b1da7143545d2178d515dcf84b69c1.webp",
+    "image": "https://a0.muscache.com/im/pictures/hosting/Hosting-1690897352180434382/original/648febf6-dd6f-4e1f-8c8b-3c1044365bcc.jpeg?im_w=720",
     "welcome": {
       "pt": "Seja bem-vindo",
       "en": "Welcome",
@@ -17,21 +17,26 @@
   },
   "location": {
     "address": "Av. Rio Branco, 82",
-    "unit": "Apto 1213A",
+    "unit": "Apto 1213 Bloco A",
     "city": "São Paulo",
     "state": "SP",
     "country": "Brasil",
     "mapsQuery": "Av+Rio+Branco,+82,+São+Paulo",
     "arrivalSteps": [
       {
-        "pt": "Apresente-se na portaria 24h informando o número 1213A. O porteiro liberará o acesso ao elevador.",
-        "en": "Check in at the 24h reception with apartment number 1213A. The doorman will release elevator access.",
-        "es": "Identifícate en la recepción 24h con el número 1213A. El portero liberará el acceso al ascensor."
+        "pt": "Envie-nos por whatsapp um documento com foto de cada hóspede com antecedência, para cadastrar a facial do check-in e utilizar sua entrada durante a estadia.",
+        "en": "Send us a document with a photo of each guest in advance, to register the facial check-in and use your entrance during the stay.",
+        "es": "Envíanos un documento con una foto de cada huésped con anticipación, para registrar la facial del check-in y utilizar su entrada durante la estadía."
       },
       {
-        "pt": "A senha da fechadura digital será enviada por WhatsApp 1h antes do check-in.",
-        "en": "The smart-lock password will be sent via WhatsApp 1h before check-in.",
-        "es": "La contraseña de la cerradura digital se enviará por WhatsApp 1h antes del check-in."
+        "pt": "Apresente-se na portaria, e acesse o prédio via sua facial previamente cadastrada, ou se apresente como visitante do apartamento 1213 bloco A. O porteiro liberará o acesso.",
+        "en": "Check in at the reception with facial recognition or as a visitor to apartment 1213 block A. The doorman will release access.",
+        "es": "Identifícate en la recepción con reconocimiento facial o como visitante del apartamento 1213 bloque A. El portero liberará el acceso."
+      },
+      {
+        "pt": "A senha da fechadura digital será enviada por WhatsApp até 1h antes do check-in.",
+        "en": "The smart-lock password will be sent via WhatsApp up to 1h before check-in.",
+        "es": "La contraseña de la cerradura digital se enviará por WhatsApp hasta 1h antes del check-in."
       }
     ],
     "transports": [
@@ -61,7 +66,7 @@
         "type": "metro",
         "name": "Metrô República",
         "line": "Linha 3-Vermelha + Linha 4-Amarela",
-        "walkTime": "12 min",
+        "walkTime": "7 min",
         "description": {
           "pt": "Coração do centro. Conexão para Paulista, Vila Madalena e Sé.",
           "en": "Heart of downtown. Connections to Paulista, Vila Madalena and Sé.",
@@ -113,20 +118,20 @@
     "wifi": {
       "network": "Mapp1213A",
       "network5g": "Mapp1213A_5G",
-      "password": "mapp1213A!"
+      "password": "Kel132927"
     },
     "notes": [
       {
         "icon": "ac",
         "title": {
-          "pt": "Ar-condicionado split",
-          "en": "Split AC",
-          "es": "Aire acondicionado split"
+          "pt": "Ventiladores de teto",
+          "en": "Ceiling fans",
+          "es": "Ventiladores de techo"
         },
         "description": {
-          "pt": "Há um split na sala e outro no quarto. Por favor, desligue ao sair.",
-          "en": "One split in the living room and one in the bedroom. Please turn off when leaving.",
-          "es": "Un split en la sala y otro en la habitación. Por favor, apaga al salir."
+          "pt": "Há um ventilador de teto na sala e outros dois nos quartos, cada um com seu próprio controle remoto. Por favor, desligue ao sair.",
+          "en": "There is a ceiling fan in the living room and two in the bedrooms, each with its own remote control to turn on/off. Please turn off when leaving.",
+          "es": "Hay un ventilador de techo en la sala y otros dos en las habitaciones, cada uno con su propio control remoto para encender/apagar. Por favor, apaga al salir."
         }
       },
       {
@@ -150,9 +155,22 @@
           "es": "Cocina"
         },
         "description": {
-          "pt": "Cozinha equipada com cooktop por indução, microondas e cafeteira Nespresso.",
-          "en": "Kitchen with induction cooktop, microwave and Nespresso machine.",
-          "es": "Cocina con cocina de inducción, microondas y cafetera Nespresso."
+          "pt": "Cozinha equipada com cooktop a gás, utensílios de cozinha, microondas, air fryer, geladeira, filtro de água e cafeteira eletrônica.",
+          "en": "Kitchen with gas cooktop, kitchen utensils, microwave, air fryer, fridge, water filter and electronic coffee machine.",
+          "es": "Cocina con cocina a gas, utensilios de cocina, microondas, freidora de aire, nevera y filtro de agua y máquina de café electrónica."
+        }
+      },
+      {
+        "icon": "laundry",
+        "title": {
+          "pt": "Lavanderia",
+          "en": "Laundry",
+          "es": "Lavandería"
+        },
+        "description": {
+          "pt": "Lavanderia no apartamento equipada com uma lava e seca e uma pia. Sabão e amaciante embaixo da pia.",
+          "en": "Laundry in the apartment with washer and dryer and a sink. Detergent and softener in the sink.",
+          "es": "Lavandería en el apartamento con lavadora y secadora y una pia. Detergente y suavizante bajo el fregadero."
         }
       },
       {
@@ -163,9 +181,9 @@
           "es": "Áreas comunes"
         },
         "description": {
-          "pt": "Piscina, academia e coworking no rooftop. Funcionam das 6h às 22h.",
-          "en": "Rooftop pool, gym and coworking space. Open from 6am to 10pm.",
-          "es": "Piscina, gimnasio y coworking en el rooftop. Abierto de 6h a 22h."
+          "pt": "Piscina, academia, brinquedoteca e coworking no térreo. Funcionam das 6h às 22h, é necessário reserva para acesso.",
+          "en": "Pool, gym, playground and coworking on the ground floor. Open from 6am to 10pm. Reservation required for access.",
+          "es": "Piscina, gimnasio, playground y coworking en planta baja. Abierto de 6h a 22h. Reserva requerida para el acceso."
         }
       },
       {
@@ -176,10 +194,39 @@
           "es": "Basura"
         },
         "description": {
-          "pt": "Lixeira no hall do andar, perto do elevador de serviço.",
-          "en": "Trash bin in the floor hall, near the service elevator.",
-          "es": "Basurero en el hall del piso, cerca del ascensor de servicio."
+          "pt": "Lixeira central do prédio fica localizada junto a porta ao lado da portaria, dentro do condomínio.",
+          "en": "Trash bin in the central building is located next to the service elevator, inside the condominium.",
+          "es": "Basurero en el edificio central está localizado junto al ascensor de servicio, dentro del condominio."
         }
+      }
+    ]
+  },
+  "parking": {
+    "name": "Parx Estacionamento",
+    "address": "Rua Antônio de Godoi, 83",
+    "mapsQuery": "Parx+Estacionamento+Rua+Antonio+de+Godoi+83+Sao+Paulo",
+    "info": [
+      {
+        "pt": "É permitido cadastrar apenas um veículo por estadia.",
+        "en": "Only one vehicle may be registered per stay.",
+        "es": "Solo se permite registrar un vehículo por estadía."
+      },
+      {
+        "pt": "Para acessar o estacionamento, pegue o cartão branco com cordão preto que fica guardado nas gavetinhas da cozinha.",
+        "en": "To access the parking lot, take the white card with black lanyard stored in the kitchen drawers.",
+        "es": "Para acceder al estacionamiento, toma la tarjeta blanca con cordón negro guardada en los cajones de la cocina."
+      }
+    ],
+    "checkoutRules": [
+      {
+        "pt": "Ao retirar o carro do estacionamento, retorne ao apartamento para devolver o cartão.",
+        "en": "When you take your car out of the parking lot, return to the apartment to drop off the card.",
+        "es": "Al retirar el auto del estacionamiento, regresa al apartamento para devolver la tarjeta."
+      },
+      {
+        "pt": "O cartão tem um custo de R$ 200 para refazê-lo — por favor, não o perca e lembre-se de devolvê-lo.",
+        "en": "Replacing the card costs R$ 200 — please don't lose it and remember to return it.",
+        "es": "Rehacer la tarjeta cuesta R$ 200 — por favor, no la pierdas y recuerda devolverla."
       }
     ]
   },
@@ -190,9 +237,9 @@
       "es": "Horario de silencio: 22h a 08h."
     },
     {
-      "pt": "Proibido fumar dentro do apartamento (inclui varanda).",
-      "en": "No smoking inside the apartment (including balcony).",
-      "es": "Prohibido fumar dentro del apartamento (incluida la terraza)."
+      "pt": "Proibido fumar dentro do apartamento (inclui areas comuns do prédio).",
+      "en": "No smoking inside the apartment (including common areas of the building).",
+      "es": "Prohibido fumar dentro del apartamento (incluida las áreas comunes del edificio)."
     },
     {
       "pt": "Visitas só com aviso prévio na portaria.",
@@ -200,9 +247,9 @@
       "es": "Visitas solo con aviso previo en la recepción."
     },
     {
-      "pt": "Animais não são permitidos.",
-      "en": "Pets are not allowed.",
-      "es": "No se permiten mascotas."
+      "pt": "Animais são permitidos, mas devem ser informados previamente.",
+      "en": "Pets are allowed, but must be informed in advance.",
+      "es": "Se permiten mascotas, pero deben ser informados previamente."
     }
   ],
   "tips": [
@@ -211,40 +258,67 @@
       "name": "Mercado Municipal Paulistano (Mercadão)",
       "distance": "1km",
       "mapsQuery": "Mercado+Municipal+Paulistano",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/ROGERIOCASSIMIRO_MERCADOMUNICIPAL_SAOPAULO_SP_%2840066551745%29.jpg/800px-ROGERIOCASSIMIRO_MERCADOMUNICIPAL_SAOPAULO_SP_%2840066551745%29.jpg",
+      "image": "https://cdn.prod.website-files.com/63d3c43a87589374d0a09844/68cc3f92d74237b055a62b2b_Mercad%C3%A3o%20SP.jpeg",
       "description": {
-        "pt": "Templo gastronômico de SP. Famoso pelo sanduíche de mortadela e pastel de bacalhau.",
-        "en": "São Paulo's gastronomic temple. Famous for the mortadella sandwich and codfish pastry.",
-        "es": "Templo gastronómico de SP. Famoso por el sándwich de mortadela y la empanada de bacalao."
+        "pt": "Templo gastronômico de SP. Sanduíche de mortadela e pastel de bacalhau imperdíveis.",
+        "en": "São Paulo's gastronomic temple. The mortadella sandwich and codfish pastry are a must.",
+        "es": "Templo gastronómico de SP. Imperdible el sándwich de mortadela y empanada de bacalao."
       }
     },
     {
       "category": "mercado",
-      "name": "Sonda Santa Cecília",
-      "distance": "750m",
-      "mapsQuery": "Sonda+Supermercado+Santa+Cecilia",
+      "name": "Bem Barato República",
+      "distance": "350m",
+      "mapsQuery": "Bem+Barato+República",
+      "image": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF6gdpIlWZ0PGWahkGntbZ46MYGCmTEcjUsJYTj1M5BSlF6EYl_a3ne8YkG_sw9RiS77tuMW3HK2KWlOGrKI9eTx1ibc7fkdtQ2daTOtIqsiB_XiXh9-dvaLHBjfSqMG-qsQmPSSQ=s680-w680-h510-rw",
       "description": {
-        "pt": "Supermercado completo, prático para o dia a dia. Aberto até 22h.",
-        "en": "Full supermarket, practical for daily groceries. Open until 10pm.",
-        "es": "Supermercado completo, práctico para el día a día. Abierto hasta 22h."
+        "pt": "Supermercado grande, com preços baixos, a poucos passos do prédio.",
+        "en": "Large supermarket, with low prices, a few steps from the building.",
+        "es": "Supermercado grande, con precios bajos, a pocos pasos del edificio."
+      }
+    },
+    {
+      "category": "padaria",
+      "name": "Mundo Pão Olivier - Praça da República",
+      "distance": "350m",
+      "mapsQuery": "Mundo+Pao+Olivier+Praça+da+República",
+      "image": "https://vejasp.abril.com.br/wp-content/uploads/2025/04/Olivier-Anquier.jpg?quality=70&strip=info&w=1280&h=720&crop=1  ",
+      "description": {
+        "pt": "Padaria com pães e cafés da manhã memoráveis. Aberto das 7h às 20h.",
+        "en": "Bread and breakfast bakery with memorable pastries. Open from 7am to 8pm.",
+        "es": "Panadería con pasteles y desayunos memorables. Abierto de 7am a 8pm."
       }
     },
     {
       "category": "padaria",
       "name": "Padaria Bella Paulista",
-      "distance": "1.8km",
+      "distance": "1.5km",
       "mapsQuery": "Padaria+Bella+Paulista",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/17/e5/85/23/bela-adega-de-vinhos.jpg",
       "description": {
-        "pt": "Padaria 24h em Higienópolis, ótima para um café da manhã reforçado.",
-        "en": "24h bakery in Higienópolis, perfect for a hearty breakfast.",
-        "es": "Panadería 24h en Higienópolis, perfecta para un desayuno abundante."
+        "pt": "Clássica padaria 24h em Higienópolis. Vale o passeio noturno.",
+        "en": "Classic 24h bakery in Higienópolis. A nice late-night stroll.",
+        "es": "Clásica panadería 24h en Higienópolis. Vale el paseo nocturno."
+      }
+    },
+    {
+      "category": "restaurante",
+      "name": "Bar Brahma",
+      "distance": "200m",
+      "mapsQuery": "Bar+Brahma+Sao+Paulo",
+      "image": "https://foodbizbrasil.com/wp-content/uploads/2025/10/bar-brahma-chope.webp",
+      "description": {
+        "pt": "Bar histórico de SP, na esquina da Ipiranga com a São João. Música ao vivo à noite.",
+        "en": "Historic SP bar at the corner of Ipiranga and São João. Live music at night.",
+        "es": "Bar histórico de SP en la esquina de Ipiranga con São João. Música en vivo de noche."
       }
     },
     {
       "category": "restaurante",
       "name": "A Casa do Porco",
-      "distance": "1.2km",
+      "distance": "650m",
       "mapsQuery": "A+Casa+do+Porco+Sao+Paulo",
+      "image": "https://exame.com/wp-content/uploads/2020/09/A-Casa-do-Porco_Porco-San-Ze_Cred-Mauro-Holanda-1.jpg?quality=70&strip=info",
       "description": {
         "pt": "Um dos melhores restaurantes do mundo, do chef Jefferson Rueda. Reserve antes.",
         "en": "One of the world's best restaurants by chef Jefferson Rueda. Book in advance.",
@@ -254,94 +328,169 @@
     {
       "category": "restaurante",
       "name": "Famiglia Mancini",
-      "distance": "1.4km",
+      "distance": "600m",
       "mapsQuery": "Famiglia+Mancini+Avanhandava",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/16/aa/0c/restaurante-famiglia.jpg?w=800&h=500&s=1",
       "description": {
-        "pt": "Cantina italiana clássica na Rua Avanhandava. Massa e antepasto históricos.",
-        "en": "Classic Italian cantina on Rua Avanhandava. Iconic pasta and antipasti.",
-        "es": "Cantina italiana clásica en Rua Avanhandava. Pasta y antipasti icónicos."
+        "pt": "Cantina italiana clássica na Rua Avanhandava (rua só de cantinas).",
+        "en": "Classic Italian cantina on Rua Avanhandava (an entire street of cantinas).",
+        "es": "Cantina italiana clásica en Rua Avanhandava (una calle entera de cantinas)."
       }
     },
     {
       "category": "oQueFazer",
-      "name": "Sala São Paulo",
-      "distance": "350m",
-      "mapsQuery": "Sala+Sao+Paulo",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/J%C3%BAlio_Prestes_Station_in_S%C3%A3o_Paulo%2C_Brazil.jpg/800px-J%C3%BAlio_Prestes_Station_in_S%C3%A3o_Paulo%2C_Brazil.jpg",
+      "name": "Praça da República (Feira de Domingo)",
+      "distance": "0m",
+      "mapsQuery": "Praca+da+Republica+Sao+Paulo",
+      "image": "https://i1.wp.com/spcity.com.br/wp-content/uploads/2017/04/feira-da-republica.jpg?fit=1300%2C917&ssl=1",
       "description": {
-        "pt": "Casa de concertos da OSESP, dentro da Estação Júlio Prestes. Acústica espetacular.",
-        "en": "OSESP concert hall inside Estação Júlio Prestes. Stunning acoustics.",
-        "es": "Sala de conciertos de OSESP en la Estação Júlio Prestes. Acústica espectacular."
+        "pt": "Aos domingos rola feira de artesanato, comida e antiguidades em frente ao prédio.",
+        "en": "On Sundays: an arts, food and antiques fair right outside the building.",
+        "es": "Los domingos: feria de artesanía, comida y antigüedades frente al edificio."
       }
     },
     {
       "category": "oQueFazer",
       "name": "Edifício Copan",
-      "distance": "1.3km",
+      "distance": "300m",
       "mapsQuery": "Edificio+Copan+Sao+Paulo",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Copan_ST.jpg/800px-Copan_ST.jpg",
+      "image": "https://buscacbre.agdp.com.br/media/uploads/_95a5302.jpg-1692192828174.jpeg",
       "description": {
-        "pt": "Ícone modernista do Niemeyer. Vale a foto e o pé-de-meia no térreo.",
-        "en": "Niemeyer's modernist icon. Worth a photo and a coffee on the ground floor.",
-        "es": "Ícono modernista de Niemeyer. Vale la foto y un café en planta baja."
+        "pt": "Ícone modernista do Niemeyer. Vale a foto. Além disso, há restaurantes e bares premiados, icônico Bar da Dona Onça, charmoso bar Fel.",
+        "en": "Niemeyer's modernist icon. Worth the photo. Besides, there are restaurants and bars awarded, the iconic Bar da Dona Onça, charming bar Felix.",
+        "es": "Ícono modernista de Niemeyer. Vale la foto. Además, hay restaurantes y bares premiados, el icónico Bar da Dona Onça, un bar de bebidas charmoso Felix."
+      }
+    },
+    {
+      "category": "oQueFazer",
+      "name": "Edifício Itália — Terraço Itália",
+      "distance": "400m",
+      "mapsQuery": "Terraco+Italia+Sao+Paulo",
+      "image": "https://spcity.com.br/wp-content/uploads/2017/01/terraco_italia3.jpg",
+      "description": {
+        "pt": "Mirante 360° no andar mais alto. Vista incrível, especialmente ao pôr do sol.",
+        "en": "360° viewpoint on the top floor. Stunning view, especially at sunset.",
+        "es": "Mirador 360° en el piso más alto. Vista increíble, sobre todo al atardecer."
+      }
+    },
+    {
+      "category": "cultura",
+      "name": "Theatro Municipal de São Paulo",
+      "distance": "700m",
+      "mapsQuery": "Theatro+Municipal+Sao+Paulo",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/05/ed/06/61/theatro-municipa-de-sao.jpg?w=900&h=500&s=1",
+      "description": {
+        "pt": "Teatro icônico no Vale do Anhangabaú. Programação de ópera, ballet e concertos.",
+        "en": "Iconic theater in Vale do Anhangabaú. Opera, ballet and concerts.",
+        "es": "Teatro icónico en Vale do Anhangabaú. Ópera, ballet y conciertos."
       }
     },
     {
       "category": "cultura",
       "name": "Pinacoteca de São Paulo",
-      "distance": "550m",
+      "distance": "1.2km",
       "mapsQuery": "Pinacoteca+Estado+Sao+Paulo",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Pinacoteca_de_S%C3%A3o_Paulo%2C_Brazil.jpg/800px-Pinacoteca_de_S%C3%A3o_Paulo%2C_Brazil.jpg",
+      "image": "https://saopaulosao.com.br/wp-content/uploads/2021/12/pinacoteca_antiga_divulgacao.jpg",
       "description": {
-        "pt": "Um dos museus mais antigos da cidade. Acervo de arte brasileira imperdível.",
-        "en": "One of the city's oldest museums. A must-see Brazilian art collection.",
-        "es": "Uno de los museos más antiguos. Acervo de arte brasileño imperdible."
+        "pt": "Um dos museus mais antigos da cidade, com forte acervo brasileiro.",
+        "en": "One of the city's oldest museums, with a strong Brazilian art collection.",
+        "es": "Uno de los museos más antiguos, con un fuerte acervo brasileño."
       }
     },
     {
       "category": "cultura",
-      "name": "Museu da Língua Portuguesa",
-      "distance": "650m",
-      "mapsQuery": "Museu+Lingua+Portuguesa+Estacao+Luz",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Luzbx.jpg/800px-Luzbx.jpg",
+      "name": "MASP",
+      "distance": "1.8km",
+      "mapsQuery": "MASP+Avenida+Paulista",
+      "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/fe/64/8d/masp-en-la-avenida-paulista.jpg?w=900&h=500&s=1",
       "description": {
-        "pt": "Museu interativo dentro da histórica Estação da Luz. Experiência sensorial sobre o idioma.",
-        "en": "Interactive museum inside the historic Estação da Luz. Sensory journey through the language.",
-        "es": "Museo interactivo dentro de la histórica Estação da Luz. Experiencia sensorial del idioma."
-      }
-    },
-    {
-      "category": "lojas",
-      "name": "Rua 25 de Março",
-      "distance": "1.5km",
-      "mapsQuery": "Rua+25+de+Marco+Sao+Paulo",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Rua_25_de_Mar%C3%A7o_1.jpg/800px-Rua_25_de_Mar%C3%A7o_1.jpg",
-      "description": {
-        "pt": "Comércio popular gigante. Eletrônicos, festas, decoração — tudo mais barato.",
-        "en": "Huge popular shopping street. Electronics, party supplies, decor — all cheaper.",
-        "es": "Calle comercial popular gigante. Electrónica, fiestas, decoración — todo más barato."
+        "pt": "Museu de Arte de SP na Av. Paulista. Cavaletes de cristal icônicos.",
+        "en": "São Paulo Art Museum on Av. Paulista. Famous glass-easel display.",
+        "es": "Museo de Arte de SP en Av. Paulista. Famosos caballetes de cristal."
       }
     },
     {
       "category": "lojas",
       "name": "Galeria do Rock",
-      "distance": "1.2km",
+      "distance": "350m",
       "mapsQuery": "Galeria+do+Rock+Sao+Paulo",
+      "image": "https://cidadedesaopaulo.com/wp-content/uploads/2025/03/Galeria-do-Rock_110322_Foto_JoseCordeiro_0124.jpg",
       "description": {
-        "pt": "Edifício temático com lojas de discos, cultura urbana, tatuagens e fanzines.",
-        "en": "Themed building with record shops, urban culture, tattoo studios and zines.",
-        "es": "Edificio temático con tiendas de discos, cultura urbana, tatuajes y fanzines."
+        "pt": "Edifício temático com lojas de discos, tatuagens e cultura urbana.",
+        "en": "Themed building with record shops, tattoo studios and urban culture.",
+        "es": "Edificio temático con tiendas de discos, tatuajes y cultura urbana."
+      }
+    },
+    {
+      "category": "lojas",
+      "name": "Shopping Light",
+      "distance": "650m",
+      "mapsQuery": "Shopping+Light+Sao+Paulo",
+      "image": "https://www.saopauloinfoco.com.br/wp-content/uploads/2013/10/shopping_light11.jpg",
+      "description": {
+        "pt": "Em frente ao Theatro Municipal, destaca-se principalmente como o maior polo de outlets de marcas famosas no coração da cidade",
+        "en": "In front of the Municipal Theater, it is mainly known as the biggest outlet of famous brands in the city center.",
+        "es": "Frente al Teatro Municipal, es conocido principalmente como el mayor polo de outlets de marcas famosas en el corazón de la ciudad."
+      }
+    },
+    {
+      "category": "lojas",
+      "name": "Rua Santa Ifigênia",
+      "distance": "200m",
+      "mapsQuery": "Rua+Santa+Ifigenia+Sao+Paulo",
+      "image": "https://vejasp.abril.com.br/wp-content/uploads/2016/12/santa-ifigenia-placa.jpeg?quality=70&strip=info&w=540&h=360&crop=1",
+      "description": {
+        "pt": "É o maior polo de eletrônicos, tecnologia e materiais elétricos do Brasil. Compra, Concerto e Instalação de equipamentos eletrônicos.",
+        "en": "It is the biggest electronics, technology and electrical materials district in Brazil. Purchase, repair and installation of electronic equipment.",
+        "es": "Es el distrito de electrónica, tecnología y materiales eléctricos más grande de Brasil. Compra, reparación y instalación de equipos electrónicos."
+      }
+    },
+    {
+      "category": "lojas",
+      "name": "Rua 25 de Março",
+      "distance": "650m",
+      "mapsQuery": "Rua+25+de+Marco+Sao+Paulo",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIFbTbGyMJLmxw7ejcCagV1-X-INVToqLTyw&s",
+      "description": {
+        "pt": "É o maior polo de comércio popular da América Latina. O local é ideal para comprar bijuterias, artigos de festa, maquiagem, itens de decoração e armarinhos a preços muito baixos",
+        "en": "It is the biggest popular shopping district in Latin America. The place is ideal to buy jewelry, party supplies, makeup, decoration items and armarinhos at very low prices.",
+        "es": "Es el distrito de comercio popular más grande de América Latina. El lugar es ideal para comprar joyería, artículos de fiesta, maquillaje, artículos de decoración y armarinhos a precios muy bajos."
+      }
+    },
+    {
+      "category": "lojas",
+      "name": "Compras no Brás",
+      "distance": "3.2km",
+      "mapsQuery": "Compras+no+Bras+Sao+Paulo",
+      "image": "https://dcomercio.com.br/public/upload/gallery/imagens/bras-rua-oriente-centro-foto-milton-mansilha-dc.jpg",
+      "description": {
+        "pt": "É o maior polo de moda do Brasil. Você encontra principalmente roupas, calçados e acessórios, tanto no varejo para uso pessoal, quanto no atacado para revenda..",
+        "en": "It is the biggest fashion district in Brazil. You can find mainly clothes, shoes and accessories, both retail for personal use and wholesale for resale.",
+        "es": "Es el distrito de moda más grande de Brasil. Puedes encontrar principalmente ropa, zapatos y accesorios, tanto al por menor para uso personal, como al por mayor para reventa."
+      }
+    },
+    {
+      "category": "lojas",
+      "name": "Bom Retiro",
+      "distance": "2.5km",
+      "mapsQuery": "Rua+Jose+Paulino+Bom+Retiro+Sao+Paulo",
+      "image": "https://catracalivre.com.br/wp-content/uploads/2023/12/istock-1423035876-scaled-e1702497867648.jpg",
+      "description": {
+        "pt": "As ruas ao seu redor são o coração de um dos maiores polos de moda do Brasil. A região é famosa tanto para compras no atacado quanto no varejo",
+        "en": "The streets around it are the heart of one of the biggest fashion districts in Brazil. The region is famous for both wholesale and retail shopping.",
+        "es": "Las calles alrededor son el corazón de uno de los distritos de moda más grandes de Brasil. La región es famosa tanto para compras al por mayor como al por menor."
       }
     },
     {
       "category": "farmacia",
       "name": "Drogaria São Paulo 24h",
-      "distance": "300m",
-      "mapsQuery": "Drogaria+Sao+Paulo+Av+Rio+Branco",
+      "distance": "150m",
+      "mapsQuery": "Drogaria+Sao+Paulo+Praca+Republica",
+      "image": "https://riomarrecife.com.br/storage/stores/vitrine_294.jpg",
       "description": {
-        "pt": "Farmácia 24h na própria Av. Rio Branco.",
-        "en": "24h pharmacy on Av. Rio Branco itself.",
-        "es": "Farmacia 24h en la propia Av. Rio Branco."
+        "pt": "Farmácia 24h na Avenida Ipiranga, em frente ao Bar Brahma.",
+        "en": "24h pharmacy on Avenida Ipiranga, in front of Bar Brahma.",
+        "es": "Farmacia 24h en Avenida Ipiranga, frente al Bar Brahma."
       }
     }
   ],

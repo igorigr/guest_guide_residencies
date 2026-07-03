@@ -13,6 +13,7 @@ export const ui = {
     'nav.local': 'Local',
     'nav.checkin': 'Check-in',
     'nav.apto': 'Apto',
+    'nav.parking': 'Estacionamento',
     'nav.rules': 'Regras',
     'nav.tips': 'Dicas',
     'nav.contact': 'Contato',
@@ -48,6 +49,11 @@ export const ui = {
     'apt.wifi.copy': 'Copiar senha',
     'apt.wifi.copied': 'Copiado!',
 
+    'parking.title': 'Estacionamento',
+    'parking.location': 'Localização',
+    'parking.openMaps': 'Abrir no Google Maps',
+    'parking.checkoutRules': 'Regras no check-out',
+
     'rules.title': 'Regras da Casa',
 
     'tips.title': 'Dicas',
@@ -77,6 +83,7 @@ export const ui = {
     'nav.local': 'Location',
     'nav.checkin': 'Check-in',
     'nav.apto': 'Apartment',
+    'nav.parking': 'Parking',
     'nav.rules': 'Rules',
     'nav.tips': 'Tips',
     'nav.contact': 'Contact',
@@ -112,6 +119,11 @@ export const ui = {
     'apt.wifi.copy': 'Copy password',
     'apt.wifi.copied': 'Copied!',
 
+    'parking.title': 'Parking',
+    'parking.location': 'Location',
+    'parking.openMaps': 'Open in Google Maps',
+    'parking.checkoutRules': 'Check-out rules',
+
     'rules.title': 'House Rules',
 
     'tips.title': 'Tips',
@@ -141,6 +153,7 @@ export const ui = {
     'nav.local': 'Lugar',
     'nav.checkin': 'Check-in',
     'nav.apto': 'Apto',
+    'nav.parking': 'Estacionamiento',
     'nav.rules': 'Reglas',
     'nav.tips': 'Tips',
     'nav.contact': 'Contacto',
@@ -175,6 +188,11 @@ export const ui = {
     'apt.wifi.password': 'Contraseña',
     'apt.wifi.copy': 'Copiar contraseña',
     'apt.wifi.copied': '¡Copiada!',
+
+    'parking.title': 'Estacionamiento',
+    'parking.location': 'Ubicación',
+    'parking.openMaps': 'Abrir en Google Maps',
+    'parking.checkoutRules': 'Reglas al check-out',
 
     'rules.title': 'Reglas de la Casa',
 

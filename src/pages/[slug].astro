@@ -7,6 +7,7 @@ import Hero from '../components/Hero.astro';
 import ComoChegar from '../components/ComoChegar.astro';
 import CheckIn from '../components/CheckIn.astro';
 import Apartamento from '../components/Apartamento.astro';
+import Estacionamento from '../components/Estacionamento.astro';
 import Regras from '../components/Regras.astro';
 import Dicas from '../components/Dicas.astro';
 import Contato from '../components/Contato.astro';
@@ -34,6 +35,7 @@ if (!apto) return Astro.redirect('/');
     <ComoChegar apto={apto} />
     <CheckIn apto={apto} />
     <Apartamento apto={apto} />
+    <Estacionamento apto={apto} />
     <Regras apto={apto} />
     <Dicas apto={apto} />
     <Contato apto={apto} />
@@ -44,5 +46,5 @@ if (!apto) return Astro.redirect('/');
     </footer>
   </main>
 
-  <MobileNav />
+  <MobileNav apto={apto} />
 </GuiaLayout>

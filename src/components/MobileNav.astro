@@ -1,16 +1,32 @@
 ---
+import type { Apto } from '../types';
 import { uiAll } from '../i18n/ui';
 import Icon from './Icon.astro';
 import T from './T.astro';
 
-const items = [
+interface Props {
+  apto: Apto;
+}
+
+const { apto } = Astro.props;
+
+const baseItems = [
   { href: '#local', icon: 'pin', key: 'nav.local' },
   { href: '#checkin', icon: 'clock', key: 'nav.checkin' },
   { href: '#apto', icon: 'home', key: 'nav.apto' },
+] as const;
+
+const parkingItem = { href: '#estacionamento', icon: 'car', key: 'nav.parking' } as const;
+
+const tailItems = [
   { href: '#regras', icon: 'rules', key: 'nav.rules' },
   { href: '#dicas', icon: 'tips', key: 'nav.tips' },
   { href: '#contato', icon: 'contact', key: 'nav.contact' },
 ] as const;
+
+const items = apto.parking
+  ? [...baseItems, parkingItem, ...tailItems]
+  : [...baseItems, ...tailItems];
 ---
 
 <nav
