@@ -24,9 +24,14 @@
     "mapsQuery": "Rua+dos+Pinheiros,+1057,+Pinheiros,+São+Paulo",
     "arrivalSteps": [
       {
-        "pt": "Ao chegar, identifique-se na portaria 24h informando o número do apartamento (314).",
-        "en": "When you arrive, check in at the 24h reception and provide the apartment number (314).",
-        "es": "Al llegar, identifícate en la recepción 24h indicando el número del apartamento (314)."
+        "pt": "Envie-nos por whatsapp um documento com foto de cada hóspede com antecedência, para cadastrar a facial do check-in e utilizar sua entrada durante a estadia.",
+        "en": "Send us a document with a photo of each guest in advance, to register the facial check-in and use your entrance during the stay.",
+        "es": "Envíanos un documento con una foto de cada huésped con anticipación, para registrar la facial del check-in y utilizar su entrada durante la estadía."
+      },
+      {
+        "pt": "Ao chegar, identifique-se como hóspede na portaria 24h informando o número do apartamento (314).",
+        "en": "When you arrive, check in as a guest at the 24h reception and provide the apartment number (314).",
+        "es": "Al llegar, identifícate como huésped en la recepción 24h indicando el número del apartamento (314)."
       },
       {
         "pt": "Para entrar no apartamento, use a senha da fechadura eletrônica enviada via WhatsApp.",
@@ -186,8 +191,8 @@
       "category": "mercado",
       "name": "Pão de Açúcar Pinheiros",
       "distance": "600m",
-      "mapsQuery": "Pao+de+Acucar+Pinheiros+Sao+Paulo",
-      "image": "https://foodbizbrasil.com/wp-content/uploads/2025/01/minuto-pao-de-acucar-1-925x400-1.png",
+      "mapsQuery": "Minuto+Pao+de+Acucar+Pinheiros+Sao+Paulo",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYAtYInj396ZSlVC2EA9He0MTuaYXUnpK6IkbwTey2nrQOHUChTfnK8Dpn&s=10",
       "description": {
         "pt": "Supermercado completo com padaria, rotisserie e adega. Aberto até 22h.",
         "en": "Full supermarket with bakery, deli and wine cellar. Open until 10pm.",
@@ -259,7 +264,7 @@
       "name": "Z Deli Pinheiros",
       "distance": "900m",
       "mapsQuery": "Z+Deli+Pinheiros",
-      "image": "https://zdeli.com.br/assets/img/zdeli_unidade-pinheiros.jpg",
+      "image": "https://vejasp.abril.com.br/wp-content/uploads/2018/09/z-deli.jpg?quality=70&strip=info&w=844&w=636",
       "description": {
         "pt": "Sanduíches e hambúrgueres premium em estilo nova-iorquino.",
         "en": "Premium NY-style sandwiches and burgers.",
