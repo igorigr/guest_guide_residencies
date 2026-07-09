@@ -24,9 +24,14 @@
     "mapsQuery": "Av+Rio+Branco,+82,+São+Paulo",
     "arrivalSteps": [
       {
-        "pt": "Será enviado um link para cadastrar a facial de cada hóspede com antecedência, que servirá para o check-in e na sua entrada no prédio durante a estadia.",
-        "en": "A link will be sent to register the facial of each guest in advance, that will serve for the check-in and your entrance in the building during the stay.",
-        "es": "Se enviará un link para registrar la facial de cada huésped con anticipación, que servirá para el check-in y su entrada en el edificio durante la estadía."
+        "pt": "Envie-nos por whatsapp um documento com foto de cada hóspede com antecedência, para cadastrar a liberação de acesso ao sistema do condomínio.",
+        "en": "Send us a document with a photo of each guest in advance, to register the release of access to the condominium system.",
+        "es": "Envíanos un documento con una foto de cada huésped con anticipación, para registrar la liberación de acceso al sistema del condomino."
+      },
+      {
+        "pt": "Será enviado um link para cadastrar a facial de cada hóspede, que servirá para o check-in e na sua entrada no prédio durante a estadia.",
+        "en": "A link will be sent to register the facial of each guest, that will serve for the check-in and your entrance in the building during the stay.",
+        "es": "Se enviará un link para registrar la facial de cada huésped, que servirá para el check-in y su entrada en el edificio durante la estadía."
       },
       {
         "pt": "Apresente-se na portaria, e acesse o prédio via sua facial previamente cadastrada, ou se apresente como visitante do apartamento 1213 bloco A. O porteiro liberará o acesso.",
@@ -68,9 +73,20 @@
         "line": "Linha 3-Vermelha + Linha 4-Amarela",
         "walkTime": "7 min",
         "description": {
-          "pt": "Coração do centro. Conexão para Paulista, Vila Madalena e Sé.",
-          "en": "Heart of downtown. Connections to Paulista, Vila Madalena and Sé.",
-          "es": "Corazón del centro. Conexiones a Paulista, Vila Madalena y Sé."
+          "pt": "Coração do centro. Conexão para Paulista, Oscar Freire, Vila Madalena e Sé.",
+          "en": "Heart of downtown. Connections to Paulista, Oscar Freire, Vila Madalena and Sé.",
+          "es": "Corazón del centro. Conexiones a Paulista, Oscar Freire, Vila Madalena y Sé."
+        }
+      },
+      {
+        "type": "metro",
+        "name": "Metrô São Bento (SP)",
+        "line": "Linha 1-Azul",
+        "walkTime": "5 min",
+        "description": {
+          "pt": "Metrô São Bento (SP). Acesso para Conexão para Terminal Rodoviário Tietê.",
+          "en": "São Bento Metro (SP). Connection to Tietê Bus Terminal.",
+          "es": "Metro São Bento (SP). Conexión a Terminal Rodoviário Tietê."
         }
       },
       {
@@ -202,9 +218,9 @@
     ]
   },
   "parking": {
-    "name": "Parx Estacionamento",
+    "name": "Redepark Estacionamento",
     "address": "Rua Antônio de Godoi, 83",
-    "mapsQuery": "Parx+Estacionamento+Rua+Antonio+de+Godoi+83+Sao+Paulo",
+    "mapsQuery": "Redepark+Estacionamento+Rua+Antonio+de+Godoi+83+Sao+Paulo",
     "info": [
       {
         "pt": "É permitido cadastrar apenas um veículo por estadia.",
@@ -252,6 +268,14 @@
       "es": "Se permiten mascotas, pero deben ser informados previamente."
     }
   ],
+  "locationMap": {
+    "image": "/images/mapp-apto1213a/mapa-localizacao.png",
+    "subtitle": {
+      "pt": "Sua localização é a poucos passos dos principais pontos turísticos, culturais, gastronômicos e comerciais do centro de São Paulo.",
+      "en": "Your location is just steps away from the main tourist, cultural, dining and shopping spots in downtown São Paulo.",
+      "es": "Su ubicación es a pocos pasos de los principales puntos turísticos, culturales, gastronómicos y comerciales del centro de São Paulo."
+    }
+  },
   "tips": [
     {
       "category": "mercado",

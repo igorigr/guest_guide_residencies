@@ -9,6 +9,7 @@ import CheckIn from '../components/CheckIn.astro';
 import Apartamento from '../components/Apartamento.astro';
 import Estacionamento from '../components/Estacionamento.astro';
 import Regras from '../components/Regras.astro';
+import Localizacao from '../components/Localizacao.astro';
 import Dicas from '../components/Dicas.astro';
 import Contato from '../components/Contato.astro';
 import { uiAll } from '../i18n/ui';
@@ -37,6 +38,7 @@ if (!apto) return Astro.redirect('/');
     <Apartamento apto={apto} />
     <Estacionamento apto={apto} />
     <Regras apto={apto} />
+    <Localizacao apto={apto} />
     <Dicas apto={apto} />
     <Contato apto={apto} />
 

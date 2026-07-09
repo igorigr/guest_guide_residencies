@@ -186,6 +186,14 @@
       "es": "Por favor apaga las luces y el aire al salir."
     }
   ],
+  "locationMap": {
+    "image": "/images/zpinheiros-apto314/mapa-localizacao.png",
+    "subtitle": {
+      "pt": "Sua localização é a poucos passos dos principais pontos turísticos, culturais, gastronômicos, comerciais e corporativos de São Paulo.",
+      "en": "Your location is just steps away from the main tourist, cultural, dining, shopping and corporate spots in São Paulo.",
+      "es": "Su ubicación es a pocos pasos de los principales puntos turísticos, culturales, gastronómicos, comerciales y corporativos de São Paulo."
+    }
+  },
   "tips": [
     {
       "category": "mercado",

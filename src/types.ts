@@ -48,6 +48,11 @@ export type Parking = {
   checkoutRules: LocalizedString[];
 };
 
+export type LocationMap = {
+  image: string;
+  subtitle?: LocalizedString;
+};
+
 export type Apto = {
   slug: string;
   name: string;
@@ -81,6 +86,7 @@ export type Apto = {
     notes: ApartmentNote[];
   };
   parking?: Parking;
+  locationMap?: LocationMap;
   rules: LocalizedString[];
   tips: Tip[];
   contact: {

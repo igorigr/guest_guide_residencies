@@ -15,6 +15,7 @@ export const ui = {
     'nav.apto': 'Apto',
     'nav.parking': 'Estacionamento',
     'nav.rules': 'Regras',
+    'nav.localizacao': 'Localização',
     'nav.tips': 'Dicas',
     'nav.contact': 'Contato',
 
@@ -56,6 +57,8 @@ export const ui = {
 
     'rules.title': 'Regras da Casa',
 
+    'localizacao.title': 'Localização',
+
     'tips.title': 'Dicas',
     'tips.all': 'Todos',
     'tips.cat.mercado': 'Mercado',
@@ -85,6 +88,7 @@ export const ui = {
     'nav.apto': 'Apartment',
     'nav.parking': 'Parking',
     'nav.rules': 'Rules',
+    'nav.localizacao': 'Location',
     'nav.tips': 'Tips',
     'nav.contact': 'Contact',
 
@@ -126,6 +130,8 @@ export const ui = {
 
     'rules.title': 'House Rules',
 
+    'localizacao.title': 'Location',
+
     'tips.title': 'Tips',
     'tips.all': 'All',
     'tips.cat.mercado': 'Grocery',
@@ -155,6 +161,7 @@ export const ui = {
     'nav.apto': 'Apto',
     'nav.parking': 'Estacionamiento',
     'nav.rules': 'Reglas',
+    'nav.localizacao': 'Ubicación',
     'nav.tips': 'Tips',
     'nav.contact': 'Contacto',
 
@@ -195,6 +202,8 @@ export const ui = {
     'parking.checkoutRules': 'Reglas al check-out',
 
     'rules.title': 'Reglas de la Casa',
+
+    'localizacao.title': 'Ubicación',
 
     'tips.title': 'Tips',
     'tips.all': 'Todos',

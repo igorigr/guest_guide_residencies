@@ -24,19 +24,19 @@
     "mapsQuery": "Rua+Guimarães+Rosa,+42,+Ocian,+Praia+Grande",
     "arrivalSteps": [
       {
-        "pt": "Identifique-se na portaria informando o número 116.",
-        "en": "Check in at the reception with apartment number 116.",
-        "es": "Identifícate en la recepción con el número 116."
+        "pt": "Envie-nos por whatsapp o nome e numero de documento de cada hóspede com antecedência, para cadastrar a entrada no sistema do condomínio e utilizar sua entrada durante a estadia.",
+        "en": "Send us the name and document number of each guest in advance, to register the entrance in the condominium system and use your entrance during the stay.",
+        "es": "Envíanos el nombre y número de documento de cada huésped con anticipación, para registrar la entrada en el sistema del condomino y utilizar su entrada durante la estadía."
       },
       {
-        "pt": "Use a chave do cofre na entrada do prédio (código no WhatsApp).",
-        "en": "Use the key in the entrance lockbox (code sent on WhatsApp).",
-        "es": "Usa la llave del cofre en la entrada (código enviado por WhatsApp)."
+        "pt": "Identifique-se na portaria informando o número do apto (116).",
+        "en": "Check in at the reception with apartment number (116).",
+        "es": "Identifícate en la recepción con el número del apto (116)."
       },
       {
-        "pt": "A vaga de garagem é a número 47, no subsolo 1.",
-        "en": "Garage spot is number 47, on basement level 1.",
-        "es": "La plaza de garaje es la 47, en el sótano 1."
+        "pt": "Para entrar no apartamento, use a senha da fechadura eletrônica enviada via WhatsApp.",
+        "en": "To enter the apartment, use the smart-lock password sent via WhatsApp.",
+        "es": "Para entrar al apartamento, usa la contraseña de la cerradura electrónica enviada por WhatsApp."
       }
     ],
     "transports": [
@@ -103,21 +103,21 @@
   },
   "apartment": {
     "wifi": {
-      "network": "Ocian116",
-      "password": "praiagrande116"
+      "network": "Ocian Apto 116",
+      "password": "Kel132927"
     },
     "notes": [
       {
         "icon": "ac",
         "title": {
-          "pt": "Ar-condicionado",
-          "en": "Air conditioning",
-          "es": "Aire acondicionado"
+          "pt": "Ventiladores de teto",
+          "en": "Ceiling fans",
+          "es": "Ventiladores de techo"
         },
         "description": {
-          "pt": "Split no quarto principal. A sala tem ventilador de teto.",
-          "en": "Split AC in the master bedroom. Living room has a ceiling fan.",
-          "es": "Split en la habitación principal. La sala tiene ventilador de techo."
+          "pt": "Há um ventilador de teto na sala e outro no quarto, cada um com seu próprio controle na parede. Por favor, desligue ao sair.",
+          "en": "There is a ceiling fan in the living room and one in the bedroom, each with its own remote control on the wall. Please turn off when leaving.",
+          "es": "Hay un ventilador de techo en la sala y otro en la habitación, cada uno con su propio control remoto en la pared. Por favor, apaga al salir."
         }
       },
       {
@@ -144,19 +144,6 @@
           "pt": "Fogão, geladeira, micro-ondas e utensílios completos.",
           "en": "Stove, fridge, microwave and full set of utensils.",
           "es": "Cocina, nevera, microondas y utensilios completos."
-        }
-      },
-      {
-        "icon": "pool",
-        "title": {
-          "pt": "Piscina do prédio",
-          "en": "Building pool",
-          "es": "Piscina del edificio"
-        },
-        "description": {
-          "pt": "Piscina aberta das 8h às 20h. Sandália e toalha são obrigatórias.",
-          "en": "Pool open 8am to 8pm. Flip-flops and towel required.",
-          "es": "Piscina abierta de 8h a 20h. Chanclas y toalla obligatorias."
         }
       },
       {
@@ -196,6 +183,14 @@
       "es": "No se permiten fiestas ni eventos."
     }
   ],
+  "locationMap": {
+    "image": "/images/ocian-apto116/mapa-localizacao.png",
+    "subtitle": {
+      "pt": "Sua localização é de frente para a praia, e a poucos passos dos principais pontos turísticos, culturais, gastronômicos, comerciais e corporativos de Praia Grande.",
+      "en": "Your location is just steps away from the main tourist, cultural, dining, shopping and corporate spots in Praia Grande.",
+      "es": "Su ubicación es a pocos pasos de los principales puntos turísticos, culturales, gastronómicos, comerciales de Praia Grande."
+    }
+  },
   "tips": [
     {
       "category": "mercado",

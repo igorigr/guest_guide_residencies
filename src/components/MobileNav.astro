@@ -17,16 +17,16 @@ const baseItems = [
 ] as const;
 
 const parkingItem = { href: '#estacionamento', icon: 'car', key: 'nav.parking' } as const;
+const locationMapItem = { href: '#localizacao', icon: 'maps', key: 'nav.localizacao' } as const;
 
-const tailItems = [
+const items = [
+  ...baseItems,
+  ...(apto.parking ? [parkingItem] : []),
   { href: '#regras', icon: 'rules', key: 'nav.rules' },
+  ...(apto.locationMap ? [locationMapItem] : []),
   { href: '#dicas', icon: 'tips', key: 'nav.tips' },
   { href: '#contato', icon: 'contact', key: 'nav.contact' },
 ] as const;
-
-const items = apto.parking
-  ? [...baseItems, parkingItem, ...tailItems]
-  : [...baseItems, ...tailItems];
 ---
 
 <nav
